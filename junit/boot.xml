@@ -1,0 +1,24 @@
+<testsuites>
+  <testsuite name="boot" package="boot">
+    <testcase name="bootloader" classname="boot"/>
+    <testcase name="desktop" classname="boot"/>
+    <testcase name="installer-icon" classname="boot"/>
+    <testcase name="installer-welcome" classname="boot">
+      <failure/>
+    </testcase>
+    <testcase name="all" classname="boot">
+      <failure/>
+    </testcase>
+  </testsuite>
+  <testsuite name="boot" package="boot">
+    <testcase name="bootloader" classname="boot"/>
+    <testcase name="desktop" classname="boot"/>
+    <testcase name="installer-icon" classname="boot"/>
+    <testcase name="installer-welcome" classname="boot">
+      <failure/>
+    </testcase>
+    <testcase name="all" classname="boot">
+      <failure/>
+    </testcase>
+  </testsuite>
+</testsuites>
