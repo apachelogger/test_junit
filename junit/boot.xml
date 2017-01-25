@@ -5,7 +5,8 @@
     <testcase name="installer-icon" classname="boot"/>
     <testcase name="installer-welcome" classname="boot">
       <failure/>
-      <system-out>[[ATTACHMENT|/var/lib/jenkins/workspace/test_junit/wok/testresults/boot-6.png]]</system-out>
+      <system-out>[[ATTACHMENT|/var/lib/jenkins/workspace/test_junit/wok/testresults/boot-6.png]]
+          <a href="xy">xy</a></system-out>
     </testcase>
     <testcase name="all" classname="boot">
       <failure/>
