@@ -1,5 +1,5 @@
 <testsuites>
-  <testsuite name="CMakePackagesName" package="CMakePackagesPackage">
-    <testcase name="KF5CoreAddonsName" time="0" classname="CMakePackagesPackage.KF5CoreAddonsClassName"/>
+  <testsuite name="CMakePackages" package="libkf5coreaddons-dev">
+    <testcase name="KF5CoreAddons" time="0" classname="libkf5coreaddons-dev.libkf5coreaddons-dev"/>
   </testsuite>
 </testsuites>
