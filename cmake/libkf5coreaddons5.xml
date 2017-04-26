@@ -1,0 +1,3 @@
+<testsuites>
+  <testsuite name="CMakePackagesName" package="CMakePackagesPackage"/>
+</testsuites>

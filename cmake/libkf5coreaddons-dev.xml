@@ -1,0 +1,5 @@
+<testsuites>
+  <testsuite name="CMakePackagesName" package="CMakePackagesPackage">
+    <testcase name="KF5CoreAddonsName" time="0" classname="CMakePackagesPackage.KF5CoreAddonsClassName"/>
+  </testsuite>
+</testsuites>
