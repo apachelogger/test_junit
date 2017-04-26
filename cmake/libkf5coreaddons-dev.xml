@@ -1,5 +1,7 @@
 <testsuites>
   <testsuite name="CMakePackages" package="libkf5coreaddons-dev">
-    <testcase name="find_package" time="0" classname="libkf5coreaddons-dev.KF5CoreAddons"/>
+    <testcase name="find_package" time="0" classname="libkf5coreaddons-dev.KF5CoreAddons">
+      <failure/>
+    </testcase>
   </testsuite>
 </testsuites>
