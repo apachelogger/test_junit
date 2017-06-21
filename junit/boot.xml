@@ -5,7 +5,8 @@
     <testcase name="installer-icon" classname="boot"/>
     <testcase name="installer-welcome" classname="boot">
       <failure/>
-      <system-out>[[ATTACHMENT|/var/lib/jenkins/workspace/test_junit/wok/testresults/boot-6.png]]<a href="https://kde.org">KDE</a></system-out>
+      <system-out>[[ATTACHMENT|/var/lib/jenkins/workspace/test_junit/wok/testresults/boot-6.png]]
+          https://kde.org</system-out>
     </testcase>
     <testcase name="all" classname="boot">
       <failure/>
