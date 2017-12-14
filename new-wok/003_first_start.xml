@@ -1,6 +1,10 @@
 <testsuites>
   <testsuite name="003_first_start" package="003_first_start">
-    <testcase name="000_" classname="003_first_start">
+    <testcase name="000_grub" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-1.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/grub.png
+</system-out>
       <system-err>{
   "area": [
     {
@@ -45,7 +49,11 @@
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="001_" classname="003_first_start">
+    <testcase name="001_sddm" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-2.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/sddm.png
+</system-out>
       <system-err>{
   "needle": "sddm",
   "json": "neon/needles/sddm.json",
@@ -73,7 +81,11 @@
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="002_" classname="003_first_start">
+    <testcase name="002_tty6-selected" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-3.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/tty6-selected.png
+</system-out>
       <system-err>{
   "frametime": [
     "14.54",
@@ -134,7 +146,11 @@
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="003_" classname="003_first_start">
+    <testcase name="003_tty-password" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-4.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/tty-password.png
+</system-out>
       <system-err>{
   "tags": [
     "tty-password"
@@ -179,7 +195,11 @@
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="004_" classname="003_first_start">
+    <testcase name="004_tty-logged-in" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-5.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/tty-logged-in.png
+</system-out>
       <system-err>{
   "tags": [
     "tty-logged-in"
@@ -224,7 +244,11 @@
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="005_" classname="003_first_start">
+    <testcase name="005_tty-sudo-passwordprompt" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-6.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/tty-sudo-passwordprompt.png
+</system-out>
       <system-err>{
   "result": "ok",
   "screenshot": "first_start-6.png",
@@ -269,7 +293,8 @@
   ]
 }</system-err>
     </testcase>
-    <testcase name="006_" classname="003_first_start">
+    <testcase name="006_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-8.png</system-out>
       <system-err>{
   "result": "unk",
   "screenshot": "first_start-8.png",
@@ -279,14 +304,16 @@
   ]
 }</system-err>
     </testcase>
-    <testcase name="007_" classname="003_first_start">
+    <testcase name="007_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-9.txt</system-out>
       <system-err>{
   "text": "first_start-9.txt",
   "result": "ok",
   "title": "wait_serial"
 }</system-err>
     </testcase>
-    <testcase name="008_" classname="003_first_start">
+    <testcase name="008_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-11.png</system-out>
       <system-err>{
   "screenshot": "first_start-11.png",
   "frametime": [
@@ -296,14 +323,16 @@
   "result": "unk"
 }</system-err>
     </testcase>
-    <testcase name="009_" classname="003_first_start">
+    <testcase name="009_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-12.txt</system-out>
       <system-err>{
   "title": "wait_serial",
   "result": "ok",
   "text": "first_start-12.txt"
 }</system-err>
     </testcase>
-    <testcase name="010_" classname="003_first_start">
+    <testcase name="010_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-14.png</system-out>
       <system-err>{
   "frametime": [
     "15.96",
@@ -313,14 +342,17 @@
   "result": "unk"
 }</system-err>
     </testcase>
-    <testcase name="011_" classname="003_first_start">
+    <testcase name="011_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-15.txt</system-out>
       <system-err>{
   "title": "wait_serial",
   "result": "ok",
   "text": "first_start-15.txt"
 }</system-err>
     </testcase>
-    <testcase name="012_" classname="003_first_start">
+    <testcase name="012_unmatched_needle" classname="003_first_start">
+      <system-out>This was a check but not an assertion!!!
+</system-out>
       <system-err>{
   "result": "unk",
   "tags": [
@@ -365,7 +397,8 @@
   ]
 }</system-err>
     </testcase>
-    <testcase name="013_" classname="003_first_start">
+    <testcase name="013_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-18.png</system-out>
       <system-err>{
   "screenshot": "first_start-18.png",
   "frametime": [
@@ -375,14 +408,17 @@
   "result": "unk"
 }</system-err>
     </testcase>
-    <testcase name="014_" classname="003_first_start">
+    <testcase name="014_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-19.txt</system-out>
       <system-err>{
   "text": "first_start-19.txt",
   "title": "wait_serial",
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="015_" classname="003_first_start">
+    <testcase name="015_unmatched_needle" classname="003_first_start">
+      <system-out>This was a check but not an assertion!!!
+</system-out>
       <system-err>{
   "needles": [
     {
@@ -427,7 +463,8 @@
   ]
 }</system-err>
     </testcase>
-    <testcase name="016_" classname="003_first_start">
+    <testcase name="016_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-22.png</system-out>
       <system-err>{
   "result": "unk",
   "screenshot": "first_start-22.png",
@@ -437,14 +474,17 @@
   ]
 }</system-err>
     </testcase>
-    <testcase name="017_" classname="003_first_start">
+    <testcase name="017_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-23.txt</system-out>
       <system-err>{
   "result": "ok",
   "title": "wait_serial",
   "text": "first_start-23.txt"
 }</system-err>
     </testcase>
-    <testcase name="018_" classname="003_first_start">
+    <testcase name="018_unmatched_needle" classname="003_first_start">
+      <system-out>This was a check but not an assertion!!!
+</system-out>
       <system-err>{
   "screenshot": "first_start-24.png",
   "frametime": [
@@ -489,7 +529,8 @@
   ]
 }</system-err>
     </testcase>
-    <testcase name="019_" classname="003_first_start">
+    <testcase name="019_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-26.png</system-out>
       <system-err>{
   "frametime": [
     "17.54",
@@ -499,14 +540,17 @@
   "result": "unk"
 }</system-err>
     </testcase>
-    <testcase name="020_" classname="003_first_start">
+    <testcase name="020_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-27.txt</system-out>
       <system-err>{
   "text": "first_start-27.txt",
   "title": "wait_serial",
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="021_" classname="003_first_start">
+    <testcase name="021_unmatched_needle" classname="003_first_start">
+      <system-out>This was a check but not an assertion!!!
+</system-out>
       <system-err>{
   "needles": [
     {
@@ -551,7 +595,8 @@
   ]
 }</system-err>
     </testcase>
-    <testcase name="022_" classname="003_first_start">
+    <testcase name="022_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-30.png</system-out>
       <system-err>{
   "result": "unk",
   "frametime": [
@@ -561,14 +606,17 @@
   "screenshot": "first_start-30.png"
 }</system-err>
     </testcase>
-    <testcase name="023_" classname="003_first_start">
+    <testcase name="023_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-31.txt</system-out>
       <system-err>{
   "text": "first_start-31.txt",
   "result": "ok",
   "title": "wait_serial"
 }</system-err>
     </testcase>
-    <testcase name="024_" classname="003_first_start">
+    <testcase name="024_unmatched_needle" classname="003_first_start">
+      <system-out>This was a check but not an assertion!!!
+</system-out>
       <system-err>{
   "needles": [
     {
@@ -613,7 +661,8 @@
   "result": "unk"
 }</system-err>
     </testcase>
-    <testcase name="025_" classname="003_first_start">
+    <testcase name="025_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-34.png</system-out>
       <system-err>{
   "result": "unk",
   "screenshot": "first_start-34.png",
@@ -623,14 +672,17 @@
   ]
 }</system-err>
     </testcase>
-    <testcase name="026_" classname="003_first_start">
+    <testcase name="026_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-35.txt</system-out>
       <system-err>{
   "text": "first_start-35.txt",
   "result": "ok",
   "title": "wait_serial"
 }</system-err>
     </testcase>
-    <testcase name="027_" classname="003_first_start">
+    <testcase name="027_unmatched_needle" classname="003_first_start">
+      <system-out>This was a check but not an assertion!!!
+</system-out>
       <system-err>{
   "needles": [
     {
@@ -675,7 +727,8 @@
   "screenshot": "first_start-36.png"
 }</system-err>
     </testcase>
-    <testcase name="028_" classname="003_first_start">
+    <testcase name="028_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-38.png</system-out>
       <system-err>{
   "result": "unk",
   "frametime": [
@@ -685,16 +738,18 @@
   "screenshot": "first_start-38.png"
 }</system-err>
     </testcase>
-    <testcase name="029_" classname="003_first_start">
+    <testcase name="029_wait_serial" classname="003_first_start">
       <failure/>
+      <system-out>/artifact/wok/testresults/first_start-39.txt</system-out>
       <system-err>{
   "title": "wait_serial",
   "result": "fail",
   "text": "first_start-39.txt"
 }</system-err>
     </testcase>
-    <testcase name="030_" classname="003_first_start">
+    <testcase name="030_Failed" classname="003_first_start">
       <failure/>
+      <system-out>/artifact/wok/testresults/first_start-40.txt</system-out>
       <system-err>{
   "result": "fail",
   "title": "Failed",

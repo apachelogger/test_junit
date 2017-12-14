@@ -1,6 +1,10 @@
 <testsuites>
   <testsuite name="002_install_calamares" package="002_install_calamares">
-    <testcase name="000_" classname="002_install_calamares">
+    <testcase name="000_calamares-installer-icon" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-1.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-icon.png
+</system-out>
       <system-err>{
   "result": "ok",
   "needle": "calamares-installer-icon",
@@ -28,7 +32,11 @@
   "screenshot": "install_calamares-1.png"
 }</system-err>
     </testcase>
-    <testcase name="001_" classname="002_install_calamares">
+    <testcase name="001_calamares-installer-welcome" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-2.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-welcome.png
+</system-out>
       <system-err>{
   "result": "ok",
   "needle": "calamares-installer-welcome",
@@ -96,7 +104,11 @@
   "screenshot": "install_calamares-2.png"
 }</system-err>
     </testcase>
-    <testcase name="002_" classname="002_install_calamares">
+    <testcase name="002_calamares-installer-next-nohighlight" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-3.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-next-nohighlight.png
+</system-out>
       <system-err>{
   "result": "ok",
   "area": [
@@ -141,7 +153,11 @@
   "json": "neon/needles/install_calamares/calamares-installer-next-nohighlight.json"
 }</system-err>
     </testcase>
-    <testcase name="003_" classname="002_install_calamares">
+    <testcase name="003_calamares-installer-timezone" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-4.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-timezone.png
+</system-out>
       <system-err>{
   "result": "ok",
   "properties": [
@@ -169,7 +185,11 @@
   "json": "neon/needles/install_calamares/calamares-installer-timezone.json"
 }</system-err>
     </testcase>
-    <testcase name="004_" classname="002_install_calamares">
+    <testcase name="004_calamares-installer-next-nohighlight" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-5.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-next-nohighlight.png
+</system-out>
       <system-err>{
   "screenshot": "install_calamares-5.png",
   "frametime": [
@@ -214,7 +234,11 @@
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="005_" classname="002_install_calamares">
+    <testcase name="005_calamares-installer-keyboard" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-6.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-keyboard.png
+</system-out>
       <system-err>{
   "screenshot": "install_calamares-6.png",
   "area": [
@@ -242,7 +266,11 @@
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="006_" classname="002_install_calamares">
+    <testcase name="006_calamares-installer-next-nohighlight" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-7.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-next-nohighlight.png
+</system-out>
       <system-err>{
   "needles": [
     {
@@ -287,7 +315,11 @@
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="007_" classname="002_install_calamares">
+    <testcase name="007_calamares-installer-disk" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-8.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-disk.png
+</system-out>
       <system-err>{
   "screenshot": "install_calamares-8.png",
   "frametime": [
@@ -315,7 +347,11 @@
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="008_" classname="002_install_calamares">
+    <testcase name="008_calamares-installer-disk-erase" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-9.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-disk-erase.png
+</system-out>
       <system-err>{
   "result": "ok",
   "tags": [
@@ -343,7 +379,11 @@
   "needle": "calamares-installer-disk-erase"
 }</system-err>
     </testcase>
-    <testcase name="009_" classname="002_install_calamares">
+    <testcase name="009_calamares-installer-disk-erase-selected-bios" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-10.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-disk-erase-selected-bios.png
+</system-out>
       <system-err>{
   "result": "ok",
   "properties": [
@@ -412,7 +452,11 @@
   "json": "neon/needles/install_calamares/calamares-installer-disk-erase-selected-bios.json"
 }</system-err>
     </testcase>
-    <testcase name="010_" classname="002_install_calamares">
+    <testcase name="010_calamares-installer-next-nohighlight" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-11.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-next-nohighlight.png
+</system-out>
       <system-err>{
   "result": "ok",
   "needles": [
@@ -457,7 +501,11 @@
   "screenshot": "install_calamares-11.png"
 }</system-err>
     </testcase>
-    <testcase name="011_" classname="002_install_calamares">
+    <testcase name="011_calamares-installer-user" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-12.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-user.png
+</system-out>
       <system-err>{
   "json": "neon/needles/install_calamares/calamares-installer-user.json",
   "needle": "calamares-installer-user",
@@ -485,7 +533,11 @@
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="012_" classname="002_install_calamares">
+    <testcase name="012_calamares-installer-user-user" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-13.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-user-user.png
+</system-out>
       <system-err>{
   "result": "ok",
   "json": "neon/needles/install_calamares/calamares-installer-user-user.json",
@@ -513,7 +565,11 @@
   "screenshot": "install_calamares-13.png"
 }</system-err>
     </testcase>
-    <testcase name="013_" classname="002_install_calamares">
+    <testcase name="013_calamares-installer-user-complete" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-14.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-user-complete.png
+</system-out>
       <system-err>{
   "screenshot": "install_calamares-14.png",
   "frametime": [
@@ -541,7 +597,11 @@
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="014_" classname="002_install_calamares">
+    <testcase name="014_calamares-installer-next-nohighlight" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-15.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-next-nohighlight.png
+</system-out>
       <system-err>{
   "result": "ok",
   "json": "neon/needles/install_calamares/calamares-installer-next-nohighlight.json",
@@ -586,7 +646,11 @@
   ]
 }</system-err>
     </testcase>
-    <testcase name="015_" classname="002_install_calamares">
+    <testcase name="015_calamares-installer-summary" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-16.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-summary.png
+</system-out>
       <system-err>{
   "result": "ok",
   "json": "neon/needles/install_calamares/calamares-installer-summary.json",
@@ -622,7 +686,11 @@
   "screenshot": "install_calamares-16.png"
 }</system-err>
     </testcase>
-    <testcase name="016_" classname="002_install_calamares">
+    <testcase name="016_calamares-installer-next-highlight" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-17.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-next-highlight.png
+</system-out>
       <system-err>{
   "result": "ok",
   "tags": [
@@ -667,7 +735,11 @@
   ]
 }</system-err>
     </testcase>
-    <testcase name="017_" classname="002_install_calamares">
+    <testcase name="017_calamares-installer-show" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-18.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-show.png
+</system-out>
       <system-err>{
   "needle": "calamares-installer-show",
   "json": "neon/needles/install_calamares/calamares-installer-show.json",
@@ -695,7 +767,11 @@
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="018_" classname="002_install_calamares">
+    <testcase name="018_calamares-installer-restart" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-19.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-restart.png
+</system-out>
       <system-err>{
   "result": "ok",
   "properties": [
@@ -739,7 +815,11 @@
   "json": "neon/needles/install_calamares/calamares-installer-restart.json"
 }</system-err>
     </testcase>
-    <testcase name="019_" classname="002_install_calamares">
+    <testcase name="019_calamares-installer-restart-now" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-20.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install_calamares/calamares-installer-restart-now.png
+</system-out>
       <system-err>{
   "frametime": [
     "12.96",
@@ -767,7 +847,11 @@
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="020_" classname="002_install_calamares">
+    <testcase name="020_live-remove-medium" classname="002_install_calamares">
+      <system-out>/artifact/wok/testresults/install_calamares-21.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/live/live-remove-medium.png
+</system-out>
       <system-err>{
   "screenshot": "install_calamares-21.png",
   "area": [

@@ -1,6 +1,7 @@
 <testsuites>
   <testsuite name="001_core" package="001_core">
-    <testcase name="000_" classname="001_core">
+    <testcase name="000_screenshot_without_match" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-2.png</system-out>
       <system-err>{
   "result": "unk",
   "frametime": [
@@ -10,7 +11,11 @@
   "screenshot": "core-2.png"
 }</system-err>
     </testcase>
-    <testcase name="001_" classname="001_core">
+    <testcase name="001_live-desktop-devedition-gitunstable" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-3.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/live/live-desktop-devedition-gitunstable.png
+</system-out>
       <system-err>{
   "needles": [
     {
@@ -87,7 +92,11 @@
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="002_" classname="001_core">
+    <testcase name="002_tty6-selected" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-4.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/tty6-selected.png
+</system-out>
       <system-err>{
   "tags": [
     "tty6-selected"
@@ -148,7 +157,11 @@
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="003_" classname="001_core">
+    <testcase name="003_tty-password" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-5.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install/tty-password.png
+</system-out>
       <system-err>{
   "needle": "tty-password",
   "json": "neon/needles/install/tty-password.json",
@@ -193,7 +206,11 @@
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="004_" classname="001_core">
+    <testcase name="004_tty-logged-in" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-6.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/install/tty-logged-in.png
+</system-out>
       <system-err>{
   "result": "ok",
   "properties": [
@@ -238,7 +255,9 @@
   ]
 }</system-err>
     </testcase>
-    <testcase name="005_" classname="001_core">
+    <testcase name="005_unmatched_needle" classname="001_core">
+      <system-out>This was a check but not an assertion!!!
+</system-out>
       <system-err>{
   "needles": [
     {
@@ -283,7 +302,8 @@
   "screenshot": "core-7.png"
 }</system-err>
     </testcase>
-    <testcase name="006_" classname="001_core">
+    <testcase name="006_screenshot_without_match" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-9.png</system-out>
       <system-err>{
   "result": "unk",
   "screenshot": "core-9.png",
@@ -293,14 +313,16 @@
   ]
 }</system-err>
     </testcase>
-    <testcase name="007_" classname="001_core">
+    <testcase name="007_wait_serial" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-10.txt</system-out>
       <system-err>{
   "text": "core-10.txt",
   "result": "ok",
   "title": "wait_serial"
 }</system-err>
     </testcase>
-    <testcase name="008_" classname="001_core">
+    <testcase name="008_screenshot_without_match" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-12.png</system-out>
       <system-err>{
   "result": "unk",
   "frametime": [
@@ -310,14 +332,16 @@
   "screenshot": "core-12.png"
 }</system-err>
     </testcase>
-    <testcase name="009_" classname="001_core">
+    <testcase name="009_wait_serial" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-13.txt</system-out>
       <system-err>{
   "text": "core-13.txt",
   "title": "wait_serial",
   "result": "ok"
 }</system-err>
     </testcase>
-    <testcase name="010_" classname="001_core">
+    <testcase name="010_screenshot_without_match" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-15.png</system-out>
       <system-err>{
   "result": "unk",
   "screenshot": "core-15.png",
@@ -327,14 +351,19 @@
   ]
 }</system-err>
     </testcase>
-    <testcase name="011_" classname="001_core">
+    <testcase name="011_wait_serial" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-16.txt</system-out>
       <system-err>{
   "result": "ok",
   "title": "wait_serial",
   "text": "core-16.txt"
 }</system-err>
     </testcase>
-    <testcase name="012_" classname="001_core">
+    <testcase name="012_live-desktop-devedition-gitunstable" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-17.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/live/live-desktop-devedition-gitunstable.png
+</system-out>
       <system-err>{
   "frametime": [
     "4.75",

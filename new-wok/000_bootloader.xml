@@ -1,6 +1,10 @@
 <testsuites>
   <testsuite name="000_bootloader" package="000_bootloader">
-    <testcase name="000_" classname="000_bootloader">
+    <testcase name="000_bootloader" classname="000_bootloader">
+      <system-out>/artifact/wok/testresults/bootloader-1.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/live/bootloader.png
+</system-out>
       <system-err>{
   "json": "neon/needles/live/bootloader.json",
   "needle": "bootloader",
