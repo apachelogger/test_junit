@@ -352,6 +352,12 @@ https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a7
     </testcase>
     <testcase name="012_unmatched_needle" classname="003_first_start">
       <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["sudo-passwordprompt"]' we checked the screen and found
+/artifact/wok/testresults/first_start-16.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/konsole-sudo-passwordprompt.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/tty-sudo-passwordprompt.png
 </system-out>
       <system-err>{
   "result": "unk",
@@ -418,6 +424,12 @@ https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a7
     </testcase>
     <testcase name="015_unmatched_needle" classname="003_first_start">
       <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["sudo-passwordprompt"]' we checked the screen and found
+/artifact/wok/testresults/first_start-20.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/konsole-sudo-passwordprompt.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/tty-sudo-passwordprompt.png
 </system-out>
       <system-err>{
   "needles": [
@@ -484,6 +496,12 @@ https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a7
     </testcase>
     <testcase name="018_unmatched_needle" classname="003_first_start">
       <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["sudo-passwordprompt"]' we checked the screen and found
+/artifact/wok/testresults/first_start-24.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/konsole-sudo-passwordprompt.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/tty-sudo-passwordprompt.png
 </system-out>
       <system-err>{
   "screenshot": "first_start-24.png",
@@ -550,6 +568,12 @@ https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a7
     </testcase>
     <testcase name="021_unmatched_needle" classname="003_first_start">
       <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["sudo-passwordprompt"]' we checked the screen and found
+/artifact/wok/testresults/first_start-28.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/konsole-sudo-passwordprompt.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/tty-sudo-passwordprompt.png
 </system-out>
       <system-err>{
   "needles": [
@@ -616,6 +640,12 @@ https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a7
     </testcase>
     <testcase name="024_unmatched_needle" classname="003_first_start">
       <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["sudo-passwordprompt"]' we checked the screen and found
+/artifact/wok/testresults/first_start-32.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/konsole-sudo-passwordprompt.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/tty-sudo-passwordprompt.png
 </system-out>
       <system-err>{
   "needles": [
@@ -682,6 +712,12 @@ https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a7
     </testcase>
     <testcase name="027_unmatched_needle" classname="003_first_start">
       <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["sudo-passwordprompt"]' we checked the screen and found
+/artifact/wok/testresults/first_start-36.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/konsole-sudo-passwordprompt.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/55aa5869a5ab6a6a770fd331dddef40a91c5f165/neon/needles/tty-sudo-passwordprompt.png
 </system-out>
       <system-err>{
   "needles": [
