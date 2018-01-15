@@ -1017,9 +1017,8 @@ and openqa can never find it.
 }</system-err>
     </testcase>
     <testcase name="037_unmatched_needle" classname="003_first_start">
-      <system-out>This was a check but not an assertion!!!
-
-To satisfy a test for the tags '["grub"]' we checked the screen and found
+      <failure/>
+      <system-out>To satisfy a test for the tags '["grub"]' we checked the screen and found
 /artifact/wok/testresults/first_start-50.png
 but expected any of:
 https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/grub.png
@@ -1077,9 +1076,8 @@ and openqa can never find it.
 }</system-err>
     </testcase>
     <testcase name="038_unmatched_needle" classname="003_first_start">
-      <system-out>This was a check but not an assertion!!!
-
-To satisfy a test for the tags '["grub"]' we checked the screen and found
+      <failure/>
+      <system-out>To satisfy a test for the tags '["grub"]' we checked the screen and found
 /artifact/wok/testresults/first_start-51.png
 but expected any of:
 https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/grub.png
@@ -1137,9 +1135,8 @@ and openqa can never find it.
 }</system-err>
     </testcase>
     <testcase name="039_unmatched_needle" classname="003_first_start">
-      <system-out>This was a check but not an assertion!!!
-
-To satisfy a test for the tags '["grub"]' we checked the screen and found
+      <failure/>
+      <system-out>To satisfy a test for the tags '["grub"]' we checked the screen and found
 /artifact/wok/testresults/first_start-52.png
 but expected any of:
 https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/grub.png
@@ -1197,9 +1194,8 @@ and openqa can never find it.
 }</system-err>
     </testcase>
     <testcase name="040_unmatched_needle" classname="003_first_start">
-      <system-out>This was a check but not an assertion!!!
-
-To satisfy a test for the tags '["grub"]' we checked the screen and found
+      <failure/>
+      <system-out>To satisfy a test for the tags '["grub"]' we checked the screen and found
 /artifact/wok/testresults/first_start-53.png
 but expected any of:
 https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/grub.png
