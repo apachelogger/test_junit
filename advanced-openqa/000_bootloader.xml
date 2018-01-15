@@ -1,0 +1,118 @@
+<testsuites>
+  <testsuite name="000_bootloader" package="000_bootloader">
+    <testcase name="000_live-bootloader-uefi" classname="000_bootloader">
+      <system-out>/artifact/wok/testresults/bootloader-1.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/live/live-bootloader-uefi.png
+</system-out>
+      <system-err>{
+  "area": [
+    {
+      "x": 196,
+      "y": 147,
+      "result": "ok",
+      "similarity": 100,
+      "w": "148",
+      "h": "39"
+    },
+    {
+      "h": "32",
+      "w": "221",
+      "similarity": 100,
+      "result": "ok",
+      "y": 189,
+      "x": 197
+    },
+    {
+      "h": "70",
+      "result": "ok",
+      "similarity": 100,
+      "w": "388",
+      "x": 200,
+      "y": 46
+    }
+  ],
+  "json": "neon/needles/live/live-bootloader-uefi.json",
+  "screenshot": "bootloader-1.png",
+  "frametime": [
+    "0.62",
+    "0.67"
+  ],
+  "needle": "live-bootloader-uefi",
+  "properties": [
+
+  ],
+  "result": "ok",
+  "tags": [
+    "bootloader"
+  ],
+  "needles": [
+    {
+      "area": [
+        {
+          "h": "264",
+          "similarity": 0,
+          "result": "fail",
+          "w": "548",
+          "x": 23,
+          "y": 0
+        }
+      ],
+      "error": 1,
+      "json": "neon/needles/live/bootloader.json",
+      "name": "bootloader"
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="001_live-bootloader-uefi-oem" classname="000_bootloader">
+      <system-out>/artifact/wok/testresults/bootloader-2.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/live/live-bootloader-uefi-oem.png
+</system-out>
+      <system-err>{
+  "properties": [
+
+  ],
+  "needle": "live-bootloader-uefi-oem",
+  "frametime": [
+    "0.71",
+    "0.75"
+  ],
+  "screenshot": "bootloader-2.png",
+  "json": "neon/needles/live/live-bootloader-uefi-oem.json",
+  "area": [
+    {
+      "similarity": 100,
+      "result": "ok",
+      "w": "148",
+      "x": 196,
+      "y": 147,
+      "h": "39"
+    },
+    {
+      "h": "32",
+      "x": 197,
+      "y": 189,
+      "similarity": 100,
+      "result": "ok",
+      "w": "221"
+    },
+    {
+      "h": "70",
+      "x": 200,
+      "y": 46,
+      "result": "ok",
+      "similarity": 100,
+      "w": "388"
+    }
+  ],
+  "tags": [
+    "live-bootloader-uefi-oem"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="all" classname="000_bootloader"/>
+  </testsuite>
+</testsuites>

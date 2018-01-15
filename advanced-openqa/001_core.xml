@@ -1,0 +1,558 @@
+<testsuites>
+  <testsuite name="001_core" package="001_core">
+    <testcase name="000_live-desktop-useredition" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-1.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/live/live-desktop-useredition.png
+</system-out>
+      <system-err>{
+  "area": [
+    {
+      "w": "719",
+      "similarity": 100,
+      "result": "ok",
+      "y": 735,
+      "x": 0,
+      "h": "33"
+    },
+    {
+      "x": 796,
+      "y": 735,
+      "result": "ok",
+      "similarity": 100,
+      "w": "28",
+      "h": "33"
+    },
+    {
+      "h": "725",
+      "w": "919",
+      "result": "ok",
+      "similarity": 100,
+      "y": 1,
+      "x": 105
+    }
+  ],
+  "needle": "live-desktop-useredition",
+  "properties": [
+
+  ],
+  "screenshot": "core-1.png",
+  "json": "neon/needles/live/live-desktop-useredition.json",
+  "frametime": [
+    "2.54",
+    "2.58"
+  ],
+  "result": "ok",
+  "needles": [
+    {
+      "error": 0.000146779986690768,
+      "area": [
+        {
+          "h": "33",
+          "w": "645",
+          "similarity": 100,
+          "result": "ok",
+          "y": 735,
+          "x": 0
+        },
+        {
+          "h": "33",
+          "similarity": 97,
+          "result": "ok",
+          "w": "28",
+          "x": 796,
+          "y": 735
+        },
+        {
+          "w": "919",
+          "similarity": 100,
+          "result": "ok",
+          "y": 1,
+          "x": 105,
+          "h": "725"
+        }
+      ],
+      "json": "neon/needles/live/live-desktop-devedition-gitunstable.json",
+      "name": "live-desktop-devedition-gitunstable"
+    }
+  ],
+  "tags": [
+    "live-desktop"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="001_tty6-selected" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-2.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install/tty6-selected.png
+</system-out>
+      <system-err>{
+  "result": "ok",
+  "tags": [
+    "tty6-selected"
+  ],
+  "needles": [
+    {
+      "area": [
+        {
+          "h": "22",
+          "y": 15,
+          "x": 346,
+          "w": "36",
+          "result": "fail",
+          "similarity": 0
+        },
+        {
+          "w": 51.4655870445343,
+          "similarity": 93,
+          "result": "ok",
+          "y": 47,
+          "x": 37,
+          "h": 19.7894736842105
+        }
+      ],
+      "error": 0.502200909530104,
+      "name": "tty6-selected",
+      "json": "neon/needles/tty6-selected.json"
+    }
+  ],
+  "area": [
+    {
+      "x": 149,
+      "y": 15,
+      "similarity": 100,
+      "result": "ok",
+      "w": "38",
+      "h": "22"
+    },
+    {
+      "w": "166",
+      "result": "ok",
+      "similarity": 100,
+      "y": 47,
+      "x": 0,
+      "h": "24"
+    }
+  ],
+  "json": "neon/needles/install/tty6-selected.json",
+  "screenshot": "core-2.png",
+  "frametime": [
+    "2.67",
+    "2.71"
+  ],
+  "needle": "tty6-selected",
+  "properties": [
+
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="002_tty-password" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-3.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install/tty-password.png
+</system-out>
+      <system-err>{
+  "result": "ok",
+  "needles": [
+    {
+      "name": "tty-password",
+      "json": "neon/needles/tty-password.json",
+      "error": 0.111344055568708,
+      "area": [
+        {
+          "h": "21",
+          "y": 64,
+          "x": 0,
+          "w": "122",
+          "result": "fail",
+          "similarity": 66
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "tty-password"
+  ],
+  "area": [
+    {
+      "x": 0,
+      "y": 65,
+      "result": "ok",
+      "similarity": 100,
+      "w": "122",
+      "h": "21"
+    }
+  ],
+  "needle": "tty-password",
+  "properties": [
+
+  ],
+  "screenshot": "core-3.png",
+  "json": "neon/needles/install/tty-password.json",
+  "frametime": [
+    "2.75",
+    "2.79"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="003_tty-logged-in" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-4.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install/tty-logged-in.png
+</system-out>
+      <system-err>{
+  "area": [
+    {
+      "h": "33",
+      "y": 336,
+      "x": 0,
+      "w": "162",
+      "result": "ok",
+      "similarity": 100
+    }
+  ],
+  "json": "neon/needles/install/tty-logged-in.json",
+  "screenshot": "core-4.png",
+  "frametime": [
+    "2.92",
+    "2.96"
+  ],
+  "needle": "tty-logged-in",
+  "properties": [
+
+  ],
+  "result": "ok",
+  "tags": [
+    "tty-logged-in"
+  ],
+  "needles": [
+    {
+      "error": 0.188141897502487,
+      "area": [
+        {
+          "y": 337,
+          "x": 78,
+          "w": 23.7142857142857,
+          "result": "ok",
+          "similarity": 93,
+          "h": 22.8571428571428
+        },
+        {
+          "x": 0,
+          "y": 337,
+          "similarity": 38,
+          "result": "fail",
+          "w": 40.8571428571428,
+          "h": 28.8
+        }
+      ],
+      "name": "tty-logged-in",
+      "json": "neon/needles/tty-logged-in.json"
+    },
+    {
+      "json": "neon/needles/install_ubiquity/oem/oem-tty-logged-in.json",
+      "name": "oem-tty-logged-in",
+      "area": [
+        {
+          "w": "26",
+          "similarity": 0,
+          "result": "fail",
+          "y": 288,
+          "x": 357,
+          "h": "20"
+        },
+        {
+          "h": "20",
+          "x": 8,
+          "y": 336,
+          "similarity": 30,
+          "result": "fail",
+          "w": "38"
+        }
+      ],
+      "error": 0.738451554239148
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="004_unmatched_needle" classname="001_core">
+      <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["sudo-passwordprompt"]' we checked the screen and found
+/artifact/wok/testresults/core-5.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/konsole-sudo-passwordprompt.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-sudo-passwordprompt.png
+
+BEWARE: previous tests may be displayed as passed but in fact openqa didn't know
+if the result is bad. You'll want to check the preceding tests as well. If they
+were looking for the same tags and also didn't find matches, then there is a
+good chance the failure occured much earlier. e.g. when testing for GRUB, but
+GRUB has unexpected theming or something the system will boot right past GRUB
+and openqa can never find it.
+</system-out>
+      <system-err>{
+  "tags": [
+    "sudo-passwordprompt"
+  ],
+  "screenshot": "core-5.png",
+  "frametime": [
+    "3.29",
+    "3.33"
+  ],
+  "needles": [
+    {
+      "error": 1,
+      "area": [
+        {
+          "x": 142,
+          "y": 1,
+          "similarity": 0,
+          "result": "fail",
+          "w": 139.230769230769,
+          "h": 18.2857142857143
+        }
+      ],
+      "name": "konsole-sudo-passwordprompt",
+      "json": "neon/needles/konsole-sudo-passwordprompt.json"
+    },
+    {
+      "error": 1,
+      "area": [
+        {
+          "w": 157.428571428571,
+          "result": "fail",
+          "similarity": 0,
+          "y": 0,
+          "x": 104,
+          "h": 18.2857142857143
+        }
+      ],
+      "name": "tty-sudo-passwordprompt",
+      "json": "neon/needles/tty-sudo-passwordprompt.json"
+    }
+  ],
+  "result": "unk"
+}</system-err>
+    </testcase>
+    <testcase name="005_screenshot_without_match" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-7.png</system-out>
+      <system-err>{
+  "result": "unk",
+  "frametime": [
+    "3.42",
+    "3.46"
+  ],
+  "screenshot": "core-7.png"
+}</system-err>
+    </testcase>
+    <testcase name="006_wait_serial" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-8.txt</system-out>
+      <system-err>{
+  "text": "core-8.txt",
+  "title": "wait_serial",
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="007_tty-logged-in" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-9.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install/tty-logged-in.png
+</system-out>
+      <system-err>{
+  "area": [
+    {
+      "h": "33",
+      "similarity": 100,
+      "result": "ok",
+      "w": "162",
+      "x": 0,
+      "y": 16
+    }
+  ],
+  "needle": "tty-logged-in",
+  "properties": [
+
+  ],
+  "screenshot": "core-9.png",
+  "json": "neon/needles/install/tty-logged-in.json",
+  "frametime": [
+    "4.25",
+    "4.29"
+  ],
+  "result": "ok",
+  "needles": [
+    {
+      "area": [
+        {
+          "w": 23.7142857142857,
+          "result": "ok",
+          "similarity": 93,
+          "y": 17,
+          "x": 78,
+          "h": 22.8571428571428
+        },
+        {
+          "result": "fail",
+          "similarity": 38,
+          "w": 40.8571428571428,
+          "x": 0,
+          "y": 17,
+          "h": 28.8
+        }
+      ],
+      "error": 0.188141897502487,
+      "json": "neon/needles/tty-logged-in.json",
+      "name": "tty-logged-in"
+    },
+    {
+      "json": "neon/needles/install_ubiquity/oem/oem-tty-logged-in.json",
+      "name": "oem-tty-logged-in",
+      "area": [
+        {
+          "similarity": 100,
+          "result": "ok",
+          "w": "26",
+          "x": 77,
+          "y": 16,
+          "h": "20"
+        },
+        {
+          "h": "20",
+          "x": 8,
+          "y": 16,
+          "similarity": 30,
+          "result": "fail",
+          "w": "38"
+        }
+      ],
+      "error": 0.238451554239148
+    }
+  ],
+  "tags": [
+    "log-console"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="008_screenshot_without_match" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-11.png</system-out>
+      <system-err>{
+  "result": "unk",
+  "frametime": [
+    "4.62",
+    "4.67"
+  ],
+  "screenshot": "core-11.png"
+}</system-err>
+    </testcase>
+    <testcase name="009_wait_serial" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-12.txt</system-out>
+      <system-err>{
+  "title": "wait_serial",
+  "result": "ok",
+  "text": "core-12.txt"
+}</system-err>
+    </testcase>
+    <testcase name="010_screenshot_without_match" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-14.png</system-out>
+      <system-err>{
+  "result": "unk",
+  "screenshot": "core-14.png",
+  "frametime": [
+    "4.92",
+    "4.96"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="011_wait_serial" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-15.txt</system-out>
+      <system-err>{
+  "text": "core-15.txt",
+  "title": "wait_serial",
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="012_live-desktop-useredition" classname="001_core">
+      <system-out>/artifact/wok/testresults/core-16.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/live/live-desktop-useredition.png
+</system-out>
+      <system-err>{
+  "result": "ok",
+  "needles": [
+    {
+      "area": [
+        {
+          "x": 0,
+          "y": 735,
+          "similarity": 100,
+          "result": "ok",
+          "w": "645",
+          "h": "33"
+        },
+        {
+          "y": 735,
+          "x": 796,
+          "w": "28",
+          "result": "ok",
+          "similarity": 97,
+          "h": "33"
+        },
+        {
+          "similarity": 100,
+          "result": "ok",
+          "w": "919",
+          "x": 105,
+          "y": 1,
+          "h": "725"
+        }
+      ],
+      "error": 0.000146779986690768,
+      "json": "neon/needles/live/live-desktop-devedition-gitunstable.json",
+      "name": "live-desktop-devedition-gitunstable"
+    }
+  ],
+  "tags": [
+    "live-desktop"
+  ],
+  "area": [
+    {
+      "w": "719",
+      "result": "ok",
+      "similarity": 100,
+      "y": 735,
+      "x": 0,
+      "h": "33"
+    },
+    {
+      "y": 735,
+      "x": 796,
+      "w": "28",
+      "similarity": 100,
+      "result": "ok",
+      "h": "33"
+    },
+    {
+      "result": "ok",
+      "similarity": 100,
+      "w": "919",
+      "x": 105,
+      "y": 1,
+      "h": "725"
+    }
+  ],
+  "properties": [
+
+  ],
+  "needle": "live-desktop-useredition",
+  "frametime": [
+    "5.58",
+    "5.62"
+  ],
+  "json": "neon/needles/live/live-desktop-useredition.json",
+  "screenshot": "core-16.png"
+}</system-err>
+    </testcase>
+    <testcase name="all" classname="001_core"/>
+  </testsuite>
+</testsuites>

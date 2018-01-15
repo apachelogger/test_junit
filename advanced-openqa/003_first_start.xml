@@ -1,0 +1,1322 @@
+<testsuites>
+  <testsuite name="003_first_start" package="003_first_start">
+    <testcase name="000_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-2.png</system-out>
+      <system-err>{
+  "frametime": [
+    "43.46",
+    "43.50"
+  ],
+  "screenshot": "first_start-2.png",
+  "result": "unk"
+}</system-err>
+    </testcase>
+    <testcase name="001_Soft Failed" classname="003_first_start">
+      <skipped/>
+      <system-out>We recorded a soft failure, this isn't a failed assertion but rather
+indicates that something is (temporarily) wrong with the expecations.
+This event was programtically created, check the code of the test case.
+/artifact/wok/testresults/first_start-3.txt
+/artifact/wok/testresults/first_start-2.png
+</system-out>
+      <system-err>{
+  "text": "first_start-3.txt",
+  "result": {
+    "frametime": [
+      "43.46",
+      "43.50"
+    ],
+    "screenshot": "first_start-2.png",
+    "result": "unk"
+  },
+  "title": "Soft Failed"
+}</system-err>
+    </testcase>
+    <testcase name="002_sddm" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-4.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/sddm.png
+</system-out>
+      <system-err>{
+  "area": [
+    {
+      "h": "477",
+      "y": 211,
+      "x": 91,
+      "w": "862",
+      "similarity": 100,
+      "result": "ok"
+    }
+  ],
+  "properties": [
+
+  ],
+  "needle": "sddm",
+  "frametime": [
+    "43.50",
+    "43.54"
+  ],
+  "json": "neon/needles/sddm.json",
+  "screenshot": "first_start-4.png",
+  "result": "ok",
+  "tags": [
+    "sddm"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="003_tty6-selected" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-5.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty6-selected.png
+</system-out>
+      <system-err>{
+  "tags": [
+    "tty6-selected"
+  ],
+  "needles": [
+    {
+      "json": "neon/needles/install/tty6-selected.json",
+      "name": "tty6-selected",
+      "area": [
+        {
+          "h": "22",
+          "y": 15,
+          "x": 381,
+          "w": "38",
+          "result": "ok",
+          "similarity": 100
+        },
+        {
+          "h": "24",
+          "x": 232,
+          "y": 47,
+          "similarity": 57,
+          "result": "fail",
+          "w": "166"
+        }
+      ],
+      "error": 0.09121532107359
+    }
+  ],
+  "result": "ok",
+  "screenshot": "first_start-5.png",
+  "json": "neon/needles/tty6-selected.json",
+  "frametime": [
+    "43.96",
+    "44.00"
+  ],
+  "needle": "tty6-selected",
+  "properties": [
+
+  ],
+  "area": [
+    {
+      "h": "22",
+      "similarity": 93,
+      "result": "ok",
+      "w": "36",
+      "x": 381,
+      "y": 15
+    },
+    {
+      "h": 19.7894736842105,
+      "x": 269,
+      "y": 47,
+      "result": "ok",
+      "similarity": 93,
+      "w": 51.4655870445343
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="004_tty-password" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-6.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-password.png
+</system-out>
+      <system-err>{
+  "properties": [
+
+  ],
+  "needle": "tty-password",
+  "frametime": [
+    "44.04",
+    "44.08"
+  ],
+  "screenshot": "first_start-6.png",
+  "json": "neon/needles/tty-password.json",
+  "area": [
+    {
+      "h": "21",
+      "w": "122",
+      "similarity": 94,
+      "result": "ok",
+      "y": 64,
+      "x": 0
+    }
+  ],
+  "needles": [
+    {
+      "json": "neon/needles/install/tty-password.json",
+      "name": "tty-password",
+      "error": 0.0736377873035452,
+      "area": [
+        {
+          "h": "21",
+          "x": 0,
+          "y": 65,
+          "similarity": 72,
+          "result": "fail",
+          "w": "122"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "tty-password"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="005_tty-logged-in" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-7.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-logged-in.png
+</system-out>
+      <system-err>{
+  "area": [
+    {
+      "h": 22.8571428571428,
+      "x": 310,
+      "y": 337,
+      "result": "ok",
+      "similarity": 93,
+      "w": 23.7142857142857
+    },
+    {
+      "h": 28.8,
+      "similarity": 93,
+      "result": "ok",
+      "w": 40.8571428571428,
+      "x": 0,
+      "y": 337
+    }
+  ],
+  "needle": "tty-logged-in",
+  "properties": [
+
+  ],
+  "json": "neon/needles/tty-logged-in.json",
+  "screenshot": "first_start-7.png",
+  "frametime": [
+    "44.50",
+    "44.54"
+  ],
+  "result": "ok",
+  "needles": [
+    {
+      "error": 0.226962532515865,
+      "area": [
+        {
+          "w": "26",
+          "result": "ok",
+          "similarity": 100,
+          "y": 336,
+          "x": 309,
+          "h": "20"
+        },
+        {
+          "y": 288,
+          "x": 488,
+          "w": "38",
+          "similarity": 32,
+          "result": "fail",
+          "h": "20"
+        }
+      ],
+      "json": "neon/needles/install_ubiquity/oem/oem-tty-logged-in.json",
+      "name": "oem-tty-logged-in"
+    },
+    {
+      "json": "neon/needles/install/tty-logged-in.json",
+      "name": "tty-logged-in",
+      "error": 0.327205084160324,
+      "area": [
+        {
+          "h": "33",
+          "y": 288,
+          "x": 464,
+          "w": "162",
+          "similarity": 42,
+          "result": "fail"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "tty-logged-in"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="006_tty-sudo-passwordprompt" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-8.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-sudo-passwordprompt.png
+</system-out>
+      <system-err>{
+  "needles": [
+    {
+      "error": 1,
+      "area": [
+        {
+          "y": 18,
+          "x": 2,
+          "w": 139.230769230769,
+          "similarity": 0,
+          "result": "fail",
+          "h": 18.2857142857143
+        }
+      ],
+      "json": "neon/needles/konsole-sudo-passwordprompt.json",
+      "name": "konsole-sudo-passwordprompt"
+    }
+  ],
+  "tags": [
+    "sudo-passwordprompt"
+  ],
+  "result": "ok",
+  "needle": "tty-sudo-passwordprompt",
+  "properties": [
+
+  ],
+  "json": "neon/needles/tty-sudo-passwordprompt.json",
+  "screenshot": "first_start-8.png",
+  "frametime": [
+    "44.79",
+    "44.83"
+  ],
+  "area": [
+    {
+      "h": 18.2857142857143,
+      "x": 0,
+      "y": 16,
+      "result": "ok",
+      "similarity": 92,
+      "w": 157.428571428571
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="007_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-10.png</system-out>
+      <system-err>{
+  "result": "unk",
+  "screenshot": "first_start-10.png",
+  "frametime": [
+    "45.00",
+    "45.04"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="008_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-11.txt</system-out>
+      <system-err>{
+  "text": "first_start-11.txt",
+  "result": "ok",
+  "title": "wait_serial"
+}</system-err>
+    </testcase>
+    <testcase name="009_tty-logged-in" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-12.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-logged-in.png
+</system-out>
+      <system-err>{
+  "properties": [
+
+  ],
+  "needle": "tty-logged-in",
+  "frametime": [
+    "45.33",
+    "45.38"
+  ],
+  "screenshot": "first_start-12.png",
+  "json": "neon/needles/tty-logged-in.json",
+  "area": [
+    {
+      "y": 33,
+      "x": 310,
+      "w": 23.7142857142857,
+      "similarity": 93,
+      "result": "ok",
+      "h": 22.8571428571428
+    },
+    {
+      "h": 28.8,
+      "y": 33,
+      "x": 0,
+      "w": 40.8571428571428,
+      "result": "ok",
+      "similarity": 93
+    }
+  ],
+  "needles": [
+    {
+      "name": "oem-tty-logged-in",
+      "json": "neon/needles/install_ubiquity/oem/oem-tty-logged-in.json",
+      "error": 0.264210128835721,
+      "area": [
+        {
+          "h": "20",
+          "similarity": 100,
+          "result": "ok",
+          "w": "26",
+          "x": 309,
+          "y": 32
+        },
+        {
+          "h": "20",
+          "x": 8,
+          "y": 32,
+          "similarity": 27,
+          "result": "fail",
+          "w": "38"
+        }
+      ]
+    },
+    {
+      "error": 0.635945559981564,
+      "area": [
+        {
+          "h": "33",
+          "y": 0,
+          "x": 704,
+          "w": "162",
+          "similarity": 20,
+          "result": "fail"
+        }
+      ],
+      "json": "neon/needles/install/tty-logged-in.json",
+      "name": "tty-logged-in"
+    }
+  ],
+  "tags": [
+    "log-console"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="010_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-14.png</system-out>
+      <system-err>{
+  "result": "unk",
+  "screenshot": "first_start-14.png",
+  "frametime": [
+    "45.71",
+    "45.75"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="011_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-15.txt</system-out>
+      <system-err>{
+  "text": "first_start-15.txt",
+  "result": "ok",
+  "title": "wait_serial"
+}</system-err>
+    </testcase>
+    <testcase name="012_unmatched_needle" classname="003_first_start">
+      <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["sudo-passwordprompt"]' we checked the screen and found
+/artifact/wok/testresults/first_start-16.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/konsole-sudo-passwordprompt.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-sudo-passwordprompt.png
+
+BEWARE: previous tests may be displayed as passed but in fact openqa didn't know
+if the result is bad. You'll want to check the preceding tests as well. If they
+were looking for the same tags and also didn't find matches, then there is a
+good chance the failure occured much earlier. e.g. when testing for GRUB, but
+GRUB has unexpected theming or something the system will boot right past GRUB
+and openqa can never find it.
+</system-out>
+      <system-err>{
+  "result": "unk",
+  "needles": [
+    {
+      "area": [
+        {
+          "similarity": 0,
+          "result": "fail",
+          "w": 139.230769230769,
+          "x": 518,
+          "y": 1,
+          "h": 18.2857142857143
+        }
+      ],
+      "error": 1,
+      "name": "konsole-sudo-passwordprompt",
+      "json": "neon/needles/konsole-sudo-passwordprompt.json"
+    },
+    {
+      "name": "tty-sudo-passwordprompt",
+      "json": "neon/needles/tty-sudo-passwordprompt.json",
+      "error": 1,
+      "area": [
+        {
+          "y": 0,
+          "x": 440,
+          "w": 157.428571428571,
+          "similarity": 0,
+          "result": "fail",
+          "h": 18.2857142857143
+        }
+      ]
+    }
+  ],
+  "frametime": [
+    "46.08",
+    "46.12"
+  ],
+  "tags": [
+    "sudo-passwordprompt"
+  ],
+  "screenshot": "first_start-16.png"
+}</system-err>
+    </testcase>
+    <testcase name="013_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-18.png</system-out>
+      <system-err>{
+  "screenshot": "first_start-18.png",
+  "frametime": [
+    "46.17",
+    "46.21"
+  ],
+  "result": "unk"
+}</system-err>
+    </testcase>
+    <testcase name="014_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-19.txt</system-out>
+      <system-err>{
+  "result": "ok",
+  "title": "wait_serial",
+  "text": "first_start-19.txt"
+}</system-err>
+    </testcase>
+    <testcase name="015_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-21.png</system-out>
+      <system-err>{
+  "result": "unk",
+  "frametime": [
+    "46.54",
+    "46.58"
+  ],
+  "screenshot": "first_start-21.png"
+}</system-err>
+    </testcase>
+    <testcase name="016_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-22.txt</system-out>
+      <system-err>{
+  "title": "wait_serial",
+  "result": "ok",
+  "text": "first_start-22.txt"
+}</system-err>
+    </testcase>
+    <testcase name="017_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-24.png</system-out>
+      <system-err>{
+  "frametime": [
+    "46.83",
+    "46.88"
+  ],
+  "screenshot": "first_start-24.png",
+  "result": "unk"
+}</system-err>
+    </testcase>
+    <testcase name="018_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-25.txt</system-out>
+      <system-err>{
+  "text": "first_start-25.txt",
+  "title": "wait_serial",
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="019_unmatched_needle" classname="003_first_start">
+      <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["sudo-passwordprompt"]' we checked the screen and found
+/artifact/wok/testresults/first_start-26.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/konsole-sudo-passwordprompt.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-sudo-passwordprompt.png
+
+BEWARE: previous tests may be displayed as passed but in fact openqa didn't know
+if the result is bad. You'll want to check the preceding tests as well. If they
+were looking for the same tags and also didn't find matches, then there is a
+good chance the failure occured much earlier. e.g. when testing for GRUB, but
+GRUB has unexpected theming or something the system will boot right past GRUB
+and openqa can never find it.
+</system-out>
+      <system-err>{
+  "result": "unk",
+  "needles": [
+    {
+      "error": 1,
+      "area": [
+        {
+          "x": 567,
+          "y": 1,
+          "result": "fail",
+          "similarity": 0,
+          "w": 139.230769230769,
+          "h": 18.2857142857143
+        }
+      ],
+      "json": "neon/needles/konsole-sudo-passwordprompt.json",
+      "name": "konsole-sudo-passwordprompt"
+    },
+    {
+      "name": "tty-sudo-passwordprompt",
+      "json": "neon/needles/tty-sudo-passwordprompt.json",
+      "area": [
+        {
+          "y": 16,
+          "x": 216,
+          "w": 157.428571428571,
+          "result": "fail",
+          "similarity": 0,
+          "h": 18.2857142857143
+        }
+      ],
+      "error": 1
+    }
+  ],
+  "frametime": [
+    "47.25",
+    "47.29"
+  ],
+  "screenshot": "first_start-26.png",
+  "tags": [
+    "sudo-passwordprompt"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="020_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-28.png</system-out>
+      <system-err>{
+  "frametime": [
+    "47.33",
+    "47.38"
+  ],
+  "screenshot": "first_start-28.png",
+  "result": "unk"
+}</system-err>
+    </testcase>
+    <testcase name="021_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-29.txt</system-out>
+      <system-err>{
+  "text": "first_start-29.txt",
+  "title": "wait_serial",
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="022_unmatched_needle" classname="003_first_start">
+      <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["sudo-passwordprompt"]' we checked the screen and found
+/artifact/wok/testresults/first_start-30.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/konsole-sudo-passwordprompt.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-sudo-passwordprompt.png
+
+BEWARE: previous tests may be displayed as passed but in fact openqa didn't know
+if the result is bad. You'll want to check the preceding tests as well. If they
+were looking for the same tags and also didn't find matches, then there is a
+good chance the failure occured much earlier. e.g. when testing for GRUB, but
+GRUB has unexpected theming or something the system will boot right past GRUB
+and openqa can never find it.
+</system-out>
+      <system-err>{
+  "result": "unk",
+  "needles": [
+    {
+      "error": 1,
+      "area": [
+        {
+          "h": 18.2857142857143,
+          "x": 567,
+          "y": 1,
+          "similarity": 0,
+          "result": "fail",
+          "w": 139.230769230769
+        }
+      ],
+      "json": "neon/needles/konsole-sudo-passwordprompt.json",
+      "name": "konsole-sudo-passwordprompt"
+    },
+    {
+      "error": 1,
+      "area": [
+        {
+          "x": 24,
+          "y": 16,
+          "similarity": 0,
+          "result": "fail",
+          "w": 157.428571428571,
+          "h": 18.2857142857143
+        }
+      ],
+      "json": "neon/needles/tty-sudo-passwordprompt.json",
+      "name": "tty-sudo-passwordprompt"
+    }
+  ],
+  "screenshot": "first_start-30.png",
+  "tags": [
+    "sudo-passwordprompt"
+  ],
+  "frametime": [
+    "47.79",
+    "47.83"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="023_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-32.png</system-out>
+      <system-err>{
+  "frametime": [
+    "47.88",
+    "47.92"
+  ],
+  "screenshot": "first_start-32.png",
+  "result": "unk"
+}</system-err>
+    </testcase>
+    <testcase name="024_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-33.txt</system-out>
+      <system-err>{
+  "text": "first_start-33.txt",
+  "title": "wait_serial",
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="025_unmatched_needle" classname="003_first_start">
+      <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["sudo-passwordprompt"]' we checked the screen and found
+/artifact/wok/testresults/first_start-34.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/konsole-sudo-passwordprompt.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-sudo-passwordprompt.png
+
+BEWARE: previous tests may be displayed as passed but in fact openqa didn't know
+if the result is bad. You'll want to check the preceding tests as well. If they
+were looking for the same tags and also didn't find matches, then there is a
+good chance the failure occured much earlier. e.g. when testing for GRUB, but
+GRUB has unexpected theming or something the system will boot right past GRUB
+and openqa can never find it.
+</system-out>
+      <system-err>{
+  "result": "unk",
+  "frametime": [
+    "48.29",
+    "48.33"
+  ],
+  "screenshot": "first_start-34.png",
+  "tags": [
+    "sudo-passwordprompt"
+  ],
+  "needles": [
+    {
+      "name": "konsole-sudo-passwordprompt",
+      "json": "neon/needles/konsole-sudo-passwordprompt.json",
+      "error": 1,
+      "area": [
+        {
+          "h": 18.2857142857143,
+          "y": 17,
+          "x": 184,
+          "w": 139.230769230769,
+          "similarity": 0,
+          "result": "fail"
+        }
+      ]
+    },
+    {
+      "name": "tty-sudo-passwordprompt",
+      "json": "neon/needles/tty-sudo-passwordprompt.json",
+      "error": 1,
+      "area": [
+        {
+          "h": 18.2857142857143,
+          "similarity": 0,
+          "result": "fail",
+          "w": 157.428571428571,
+          "x": 216,
+          "y": 16
+        }
+      ]
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="026_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-36.png</system-out>
+      <system-err>{
+  "result": "unk",
+  "frametime": [
+    "48.42",
+    "48.46"
+  ],
+  "screenshot": "first_start-36.png"
+}</system-err>
+    </testcase>
+    <testcase name="027_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-37.txt</system-out>
+      <system-err>{
+  "result": "ok",
+  "title": "wait_serial",
+  "text": "first_start-37.txt"
+}</system-err>
+    </testcase>
+    <testcase name="028_unmatched_needle" classname="003_first_start">
+      <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["sudo-passwordprompt"]' we checked the screen and found
+/artifact/wok/testresults/first_start-38.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/konsole-sudo-passwordprompt.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-sudo-passwordprompt.png
+
+BEWARE: previous tests may be displayed as passed but in fact openqa didn't know
+if the result is bad. You'll want to check the preceding tests as well. If they
+were looking for the same tags and also didn't find matches, then there is a
+good chance the failure occured much earlier. e.g. when testing for GRUB, but
+GRUB has unexpected theming or something the system will boot right past GRUB
+and openqa can never find it.
+</system-out>
+      <system-err>{
+  "result": "unk",
+  "frametime": [
+    "48.83",
+    "48.88"
+  ],
+  "screenshot": "first_start-38.png",
+  "tags": [
+    "sudo-passwordprompt"
+  ],
+  "needles": [
+    {
+      "name": "konsole-sudo-passwordprompt",
+      "json": "neon/needles/konsole-sudo-passwordprompt.json",
+      "area": [
+        {
+          "y": 18,
+          "x": 415,
+          "w": 139.230769230769,
+          "result": "fail",
+          "similarity": 0,
+          "h": 18.2857142857143
+        }
+      ],
+      "error": 1
+    },
+    {
+      "error": 1,
+      "area": [
+        {
+          "h": 18.2857142857143,
+          "y": 32,
+          "x": 64,
+          "w": 157.428571428571,
+          "result": "fail",
+          "similarity": 0
+        }
+      ],
+      "name": "tty-sudo-passwordprompt",
+      "json": "neon/needles/tty-sudo-passwordprompt.json"
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="029_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-40.png</system-out>
+      <system-err>{
+  "result": "unk",
+  "screenshot": "first_start-40.png",
+  "frametime": [
+    "48.92",
+    "48.96"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="030_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-41.txt</system-out>
+      <system-err>{
+  "title": "wait_serial",
+  "result": "ok",
+  "text": "first_start-41.txt"
+}</system-err>
+    </testcase>
+    <testcase name="031_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-43.png</system-out>
+      <system-err>{
+  "screenshot": "first_start-43.png",
+  "frametime": [
+    "49.21",
+    "49.25"
+  ],
+  "result": "unk"
+}</system-err>
+    </testcase>
+    <testcase name="032_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-44.txt</system-out>
+      <system-err>{
+  "text": "first_start-44.txt",
+  "title": "wait_serial",
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="033_unmatched_needle" classname="003_first_start">
+      <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["sudo-passwordprompt"]' we checked the screen and found
+/artifact/wok/testresults/first_start-45.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/konsole-sudo-passwordprompt.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-sudo-passwordprompt.png
+
+BEWARE: previous tests may be displayed as passed but in fact openqa didn't know
+if the result is bad. You'll want to check the preceding tests as well. If they
+were looking for the same tags and also didn't find matches, then there is a
+good chance the failure occured much earlier. e.g. when testing for GRUB, but
+GRUB has unexpected theming or something the system will boot right past GRUB
+and openqa can never find it.
+</system-out>
+      <system-err>{
+  "result": "unk",
+  "frametime": [
+    "49.58",
+    "49.62"
+  ],
+  "screenshot": "first_start-45.png",
+  "tags": [
+    "sudo-passwordprompt"
+  ],
+  "needles": [
+    {
+      "name": "konsole-sudo-passwordprompt",
+      "json": "neon/needles/konsole-sudo-passwordprompt.json",
+      "error": 1,
+      "area": [
+        {
+          "h": 18.2857142857143,
+          "similarity": 0,
+          "result": "fail",
+          "w": 139.230769230769,
+          "x": 45,
+          "y": 66
+        }
+      ]
+    },
+    {
+      "name": "tty-sudo-passwordprompt",
+      "json": "neon/needles/tty-sudo-passwordprompt.json",
+      "error": 1,
+      "area": [
+        {
+          "h": 18.2857142857143,
+          "y": 16,
+          "x": 80,
+          "w": 157.428571428571,
+          "similarity": 0,
+          "result": "fail"
+        }
+      ]
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="034_screenshot_without_match" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-47.png</system-out>
+      <system-err>{
+  "screenshot": "first_start-47.png",
+  "frametime": [
+    "49.71",
+    "49.75"
+  ],
+  "result": "unk"
+}</system-err>
+    </testcase>
+    <testcase name="035_wait_serial" classname="003_first_start">
+      <system-out>/artifact/wok/testresults/first_start-48.txt</system-out>
+      <system-err>{
+  "result": "ok",
+  "title": "wait_serial",
+  "text": "first_start-48.txt"
+}</system-err>
+    </testcase>
+    <testcase name="036_unmatched_needle" classname="003_first_start">
+      <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["sudo-passwordprompt"]' we checked the screen and found
+/artifact/wok/testresults/first_start-49.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/konsole-sudo-passwordprompt.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-sudo-passwordprompt.png
+
+BEWARE: previous tests may be displayed as passed but in fact openqa didn't know
+if the result is bad. You'll want to check the preceding tests as well. If they
+were looking for the same tags and also didn't find matches, then there is a
+good chance the failure occured much earlier. e.g. when testing for GRUB, but
+GRUB has unexpected theming or something the system will boot right past GRUB
+and openqa can never find it.
+</system-out>
+      <system-err>{
+  "result": "unk",
+  "needles": [
+    {
+      "json": "neon/needles/konsole-sudo-passwordprompt.json",
+      "name": "konsole-sudo-passwordprompt",
+      "area": [
+        {
+          "h": 18.2857142857143,
+          "x": 495,
+          "y": 518,
+          "similarity": 0,
+          "result": "fail",
+          "w": 139.230769230769
+        }
+      ],
+      "error": 1
+    },
+    {
+      "json": "neon/needles/tty-sudo-passwordprompt.json",
+      "name": "tty-sudo-passwordprompt",
+      "error": 1,
+      "area": [
+        {
+          "x": 405,
+          "y": 503,
+          "result": "fail",
+          "similarity": 0,
+          "w": 157.428571428571,
+          "h": 18.2857142857143
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "sudo-passwordprompt"
+  ],
+  "screenshot": "first_start-49.png",
+  "frametime": [
+    "50.00",
+    "50.04"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="037_unmatched_needle" classname="003_first_start">
+      <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["grub"]' we checked the screen and found
+/artifact/wok/testresults/first_start-50.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/grub.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/plasma_folder/grub.png
+
+BEWARE: previous tests may be displayed as passed but in fact openqa didn't know
+if the result is bad. You'll want to check the preceding tests as well. If they
+were looking for the same tags and also didn't find matches, then there is a
+good chance the failure occured much earlier. e.g. when testing for GRUB, but
+GRUB has unexpected theming or something the system will boot right past GRUB
+and openqa can never find it.
+</system-out>
+      <system-err>{
+  "needles": [
+    {
+      "json": "neon/needles/grub.json",
+      "name": "grub",
+      "area": [
+        {
+          "w": "480",
+          "result": "fail",
+          "similarity": 0,
+          "y": 401,
+          "x": 161,
+          "h": "84"
+        }
+      ],
+      "error": 1
+    },
+    {
+      "json": "neon/needles/plasma_folder/grub.json",
+      "name": "grub",
+      "area": [
+        {
+          "h": "84",
+          "w": "480",
+          "result": "fail",
+          "similarity": 0,
+          "y": 401,
+          "x": 161
+        }
+      ],
+      "error": 1
+    }
+  ],
+  "frametime": [
+    "50.42",
+    "50.46"
+  ],
+  "screenshot": "first_start-50.png",
+  "tags": [
+    "grub"
+  ],
+  "result": "unk"
+}</system-err>
+    </testcase>
+    <testcase name="038_unmatched_needle" classname="003_first_start">
+      <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["grub"]' we checked the screen and found
+/artifact/wok/testresults/first_start-51.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/grub.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/plasma_folder/grub.png
+
+BEWARE: previous tests may be displayed as passed but in fact openqa didn't know
+if the result is bad. You'll want to check the preceding tests as well. If they
+were looking for the same tags and also didn't find matches, then there is a
+good chance the failure occured much earlier. e.g. when testing for GRUB, but
+GRUB has unexpected theming or something the system will boot right past GRUB
+and openqa can never find it.
+</system-out>
+      <system-err>{
+  "result": "unk",
+  "tags": [
+    "grub"
+  ],
+  "screenshot": "first_start-51.png",
+  "frametime": [
+    "50.83",
+    "50.88"
+  ],
+  "needles": [
+    {
+      "json": "neon/needles/grub.json",
+      "name": "grub",
+      "area": [
+        {
+          "w": "480",
+          "result": "fail",
+          "similarity": 0,
+          "y": 418,
+          "x": 319,
+          "h": "84"
+        }
+      ],
+      "error": 1
+    },
+    {
+      "error": 1,
+      "area": [
+        {
+          "x": 319,
+          "y": 418,
+          "result": "fail",
+          "similarity": 0,
+          "w": "480",
+          "h": "84"
+        }
+      ],
+      "json": "neon/needles/plasma_folder/grub.json",
+      "name": "grub"
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="039_unmatched_needle" classname="003_first_start">
+      <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["grub"]' we checked the screen and found
+/artifact/wok/testresults/first_start-52.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/grub.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/plasma_folder/grub.png
+
+BEWARE: previous tests may be displayed as passed but in fact openqa didn't know
+if the result is bad. You'll want to check the preceding tests as well. If they
+were looking for the same tags and also didn't find matches, then there is a
+good chance the failure occured much earlier. e.g. when testing for GRUB, but
+GRUB has unexpected theming or something the system will boot right past GRUB
+and openqa can never find it.
+</system-out>
+      <system-err>{
+  "result": "unk",
+  "needles": [
+    {
+      "area": [
+        {
+          "h": "84",
+          "x": 277,
+          "y": 353,
+          "similarity": 0,
+          "result": "fail",
+          "w": "480"
+        }
+      ],
+      "error": 1,
+      "json": "neon/needles/grub.json",
+      "name": "grub"
+    },
+    {
+      "area": [
+        {
+          "h": "84",
+          "x": 277,
+          "y": 353,
+          "similarity": 0,
+          "result": "fail",
+          "w": "480"
+        }
+      ],
+      "error": 1,
+      "name": "grub",
+      "json": "neon/needles/plasma_folder/grub.json"
+    }
+  ],
+  "frametime": [
+    "51.67",
+    "51.71"
+  ],
+  "screenshot": "first_start-52.png",
+  "tags": [
+    "grub"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="040_unmatched_needle" classname="003_first_start">
+      <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["grub"]' we checked the screen and found
+/artifact/wok/testresults/first_start-53.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/grub.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/plasma_folder/grub.png
+
+BEWARE: previous tests may be displayed as passed but in fact openqa didn't know
+if the result is bad. You'll want to check the preceding tests as well. If they
+were looking for the same tags and also didn't find matches, then there is a
+good chance the failure occured much earlier. e.g. when testing for GRUB, but
+GRUB has unexpected theming or something the system will boot right past GRUB
+and openqa can never find it.
+</system-out>
+      <system-err>{
+  "result": "unk",
+  "frametime": [
+    "52.08",
+    "52.12"
+  ],
+  "tags": [
+    "grub"
+  ],
+  "screenshot": "first_start-53.png",
+  "needles": [
+    {
+      "json": "neon/needles/grub.json",
+      "name": "grub",
+      "area": [
+        {
+          "similarity": 0,
+          "result": "fail",
+          "w": "480",
+          "x": 62,
+          "y": 267,
+          "h": "84"
+        }
+      ],
+      "error": 1
+    },
+    {
+      "error": 1,
+      "area": [
+        {
+          "h": "84",
+          "result": "fail",
+          "similarity": 0,
+          "w": "480",
+          "x": 62,
+          "y": 267
+        }
+      ],
+      "name": "grub",
+      "json": "neon/needles/plasma_folder/grub.json"
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="041_unmatched_needle" classname="003_first_start">
+      <failure/>
+      <system-out>To satisfy a test for the tags '["grub"]' we checked the screen and found
+/artifact/wok/testresults/first_start-54.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/grub.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/plasma_folder/grub.png
+
+BEWARE: previous tests may be displayed as passed but in fact openqa didn't know
+if the result is bad. You'll want to check the preceding tests as well. If they
+were looking for the same tags and also didn't find matches, then there is a
+good chance the failure occured much earlier. e.g. when testing for GRUB, but
+GRUB has unexpected theming or something the system will boot right past GRUB
+and openqa can never find it.
+</system-out>
+      <system-err>{
+  "frametime": [
+    "55.08",
+    "55.12"
+  ],
+  "tags": [
+    "grub"
+  ],
+  "screenshot": "first_start-54.png",
+  "needles": [
+    {
+      "name": "grub",
+      "json": "neon/needles/grub.json",
+      "error": 1,
+      "area": [
+        {
+          "h": "84",
+          "w": "480",
+          "similarity": 0,
+          "result": "fail",
+          "y": 267,
+          "x": 62
+        }
+      ]
+    },
+    {
+      "area": [
+        {
+          "w": "480",
+          "result": "fail",
+          "similarity": 0,
+          "y": 267,
+          "x": 62,
+          "h": "84"
+        }
+      ],
+      "error": 1,
+      "name": "grub",
+      "json": "neon/needles/plasma_folder/grub.json"
+    }
+  ],
+  "result": "fail"
+}</system-err>
+    </testcase>
+    <testcase name="all" classname="003_first_start">
+      <failure/>
+    </testcase>
+  </testsuite>
+</testsuites>

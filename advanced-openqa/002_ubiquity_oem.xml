@@ -1,0 +1,2647 @@
+<testsuites>
+  <testsuite name="002_ubiquity_oem" package="002_ubiquity_oem">
+    <testcase name="000_live-desktop-useredition" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-1.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/live/live-desktop-useredition.png
+</system-out>
+      <system-err>{
+  "result": "ok",
+  "needles": [
+    {
+      "json": "neon/needles/live/live-desktop-devedition-gitunstable.json",
+      "name": "live-desktop-devedition-gitunstable",
+      "error": 0.000146779986690768,
+      "area": [
+        {
+          "x": 0,
+          "y": 735,
+          "result": "ok",
+          "similarity": 100,
+          "w": "645",
+          "h": "33"
+        },
+        {
+          "w": "28",
+          "similarity": 97,
+          "result": "ok",
+          "y": 735,
+          "x": 796,
+          "h": "33"
+        },
+        {
+          "h": "725",
+          "w": "919",
+          "similarity": 100,
+          "result": "ok",
+          "y": 1,
+          "x": 105
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "live-desktop"
+  ],
+  "area": [
+    {
+      "x": 0,
+      "y": 735,
+      "result": "ok",
+      "similarity": 100,
+      "w": "719",
+      "h": "33"
+    },
+    {
+      "h": "33",
+      "w": "28",
+      "result": "ok",
+      "similarity": 100,
+      "y": 735,
+      "x": 796
+    },
+    {
+      "similarity": 100,
+      "result": "ok",
+      "w": "919",
+      "x": 105,
+      "y": 1,
+      "h": "725"
+    }
+  ],
+  "needle": "live-desktop-useredition",
+  "properties": [
+
+  ],
+  "json": "neon/needles/live/live-desktop-useredition.json",
+  "screenshot": "ubiquity_oem-1.png",
+  "frametime": [
+    "5.67",
+    "5.71"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="001_tty-logged-in" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-2.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install/tty-logged-in.png
+</system-out>
+      <system-err>{
+  "result": "ok",
+  "tags": [
+    "log-console"
+  ],
+  "needles": [
+    {
+      "error": 0.188141897502487,
+      "area": [
+        {
+          "h": 22.8571428571428,
+          "x": 78,
+          "y": 225,
+          "similarity": 93,
+          "result": "ok",
+          "w": 23.7142857142857
+        },
+        {
+          "h": 28.8,
+          "similarity": 38,
+          "result": "fail",
+          "w": 40.8571428571428,
+          "x": 0,
+          "y": 225
+        }
+      ],
+      "name": "tty-logged-in",
+      "json": "neon/needles/tty-logged-in.json"
+    },
+    {
+      "name": "oem-tty-logged-in",
+      "json": "neon/needles/install_ubiquity/oem/oem-tty-logged-in.json",
+      "error": 0.238451554239148,
+      "area": [
+        {
+          "w": "26",
+          "result": "ok",
+          "similarity": 100,
+          "y": 224,
+          "x": 77,
+          "h": "20"
+        },
+        {
+          "h": "20",
+          "x": 8,
+          "y": 224,
+          "similarity": 30,
+          "result": "fail",
+          "w": "38"
+        }
+      ]
+    }
+  ],
+  "area": [
+    {
+      "h": "33",
+      "y": 224,
+      "x": 0,
+      "w": "162",
+      "similarity": 100,
+      "result": "ok"
+    }
+  ],
+  "frametime": [
+    "6.54",
+    "6.58"
+  ],
+  "json": "neon/needles/install/tty-logged-in.json",
+  "screenshot": "ubiquity_oem-2.png",
+  "properties": [
+
+  ],
+  "needle": "tty-logged-in"
+}</system-err>
+    </testcase>
+    <testcase name="002_screenshot_without_match" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-4.png</system-out>
+      <system-err>{
+  "result": "unk",
+  "frametime": [
+    "6.83",
+    "6.88"
+  ],
+  "screenshot": "ubiquity_oem-4.png"
+}</system-err>
+    </testcase>
+    <testcase name="003_wait_serial" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-5.txt</system-out>
+      <system-err>{
+  "title": "wait_serial",
+  "result": "ok",
+  "text": "ubiquity_oem-5.txt"
+}</system-err>
+    </testcase>
+    <testcase name="004_unmatched_needle" classname="002_ubiquity_oem">
+      <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["sudo-passwordprompt"]' we checked the screen and found
+/artifact/wok/testresults/ubiquity_oem-6.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/konsole-sudo-passwordprompt.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-sudo-passwordprompt.png
+
+BEWARE: previous tests may be displayed as passed but in fact openqa didn't know
+if the result is bad. You'll want to check the preceding tests as well. If they
+were looking for the same tags and also didn't find matches, then there is a
+good chance the failure occured much earlier. e.g. when testing for GRUB, but
+GRUB has unexpected theming or something the system will boot right past GRUB
+and openqa can never find it.
+</system-out>
+      <system-err>{
+  "tags": [
+    "sudo-passwordprompt"
+  ],
+  "screenshot": "ubiquity_oem-6.png",
+  "frametime": [
+    "7.25",
+    "7.29"
+  ],
+  "needles": [
+    {
+      "json": "neon/needles/konsole-sudo-passwordprompt.json",
+      "name": "konsole-sudo-passwordprompt",
+      "error": 1,
+      "area": [
+        {
+          "y": 1,
+          "x": 97,
+          "w": 139.230769230769,
+          "similarity": 0,
+          "result": "fail",
+          "h": 18.2857142857143
+        }
+      ]
+    },
+    {
+      "error": 1,
+      "area": [
+        {
+          "h": 18.2857142857143,
+          "x": 96,
+          "y": 0,
+          "similarity": 0,
+          "result": "fail",
+          "w": 157.428571428571
+        }
+      ],
+      "name": "tty-sudo-passwordprompt",
+      "json": "neon/needles/tty-sudo-passwordprompt.json"
+    }
+  ],
+  "result": "unk"
+}</system-err>
+    </testcase>
+    <testcase name="005_screenshot_without_match" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-8.png</system-out>
+      <system-err>{
+  "result": "unk",
+  "frametime": [
+    "7.33",
+    "7.38"
+  ],
+  "screenshot": "ubiquity_oem-8.png"
+}</system-err>
+    </testcase>
+    <testcase name="006_wait_serial" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-9.txt</system-out>
+      <system-err>{
+  "result": "ok",
+  "title": "wait_serial",
+  "text": "ubiquity_oem-9.txt"
+}</system-err>
+    </testcase>
+    <testcase name="007_installer-icon" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-10.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-icon.png
+</system-out>
+      <system-err>{
+  "area": [
+    {
+      "x": 37,
+      "y": 17,
+      "result": "ok",
+      "similarity": 92,
+      "w": "41",
+      "h": "50"
+    }
+  ],
+  "json": "neon/needles/install_ubiquity/installer-icon.json",
+  "screenshot": "ubiquity_oem-10.png",
+  "frametime": [
+    "8.00",
+    "8.04"
+  ],
+  "needle": "installer-icon",
+  "properties": [
+
+  ],
+  "result": "ok",
+  "tags": [
+    "installer-icon"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="008_oem-installer-welcome" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-11.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-installer-welcome.png
+</system-out>
+      <system-err>{
+  "properties": [
+
+  ],
+  "needle": "oem-installer-welcome",
+  "frametime": [
+    "8.33",
+    "8.38"
+  ],
+  "json": "neon/needles/install_ubiquity/oem/oem-installer-welcome.json",
+  "screenshot": "ubiquity_oem-11.png",
+  "area": [
+    {
+      "y": 0,
+      "x": 0,
+      "w": "914",
+      "similarity": 100,
+      "result": "ok",
+      "h": "563"
+    }
+  ],
+  "tags": [
+    "oem-installer-welcome"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="009_screenshot_without_match" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-13.png</system-out>
+      <system-err>{
+  "result": "unk",
+  "screenshot": "ubiquity_oem-13.png",
+  "frametime": [
+    "8.33",
+    "8.38"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="010_Soft Failed" classname="002_ubiquity_oem">
+      <skipped/>
+      <system-out>We recorded a soft failure, this isn't a failed assertion but rather
+indicates that something is (temporarily) wrong with the expecations.
+This event was programtically created, check the code of the test case.
+/artifact/wok/testresults/ubiquity_oem-14.txt
+/artifact/wok/testresults/ubiquity_oem-13.png
+</system-out>
+      <system-err>{
+  "title": "Soft Failed",
+  "result": {
+    "result": "unk",
+    "screenshot": "ubiquity_oem-13.png",
+    "frametime": [
+      "8.33",
+      "8.38"
+    ]
+  },
+  "text": "ubiquity_oem-14.txt"
+}</system-err>
+    </testcase>
+    <testcase name="011_installer-next" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-15.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-next.png
+</system-out>
+      <system-err>{
+  "tags": [
+    "installer-next"
+  ],
+  "result": "ok",
+  "properties": [
+
+  ],
+  "needle": "installer-next",
+  "frametime": [
+    "8.42",
+    "8.46"
+  ],
+  "screenshot": "ubiquity_oem-15.png",
+  "json": "neon/needles/install_ubiquity/installer-next.json",
+  "area": [
+    {
+      "h": "29",
+      "w": "84",
+      "similarity": 100,
+      "result": "ok",
+      "y": 520,
+      "x": 817
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="012_installer-prepare" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-16.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-prepare.png
+</system-out>
+      <system-err>{
+  "result": "ok",
+  "tags": [
+    "installer-prepare"
+  ],
+  "area": [
+    {
+      "w": "914",
+      "similarity": 97,
+      "result": "ok",
+      "y": 0,
+      "x": 0,
+      "h": "561"
+    }
+  ],
+  "screenshot": "ubiquity_oem-16.png",
+  "json": "neon/needles/install_ubiquity/installer-prepare.json",
+  "frametime": [
+    "8.62",
+    "8.67"
+  ],
+  "needle": "installer-prepare",
+  "properties": [
+
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="013_installer-next" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-17.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-next.png
+</system-out>
+      <system-err>{
+  "tags": [
+    "installer-next"
+  ],
+  "result": "ok",
+  "needle": "installer-next",
+  "properties": [
+
+  ],
+  "json": "neon/needles/install_ubiquity/installer-next.json",
+  "screenshot": "ubiquity_oem-17.png",
+  "frametime": [
+    "8.71",
+    "8.75"
+  ],
+  "area": [
+    {
+      "y": 520,
+      "x": 817,
+      "w": "84",
+      "result": "ok",
+      "similarity": 100,
+      "h": "29"
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="014_installer-disk" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-18.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-disk.png
+</system-out>
+      <system-err>{
+  "frametime": [
+    "8.88",
+    "8.92"
+  ],
+  "screenshot": "ubiquity_oem-18.png",
+  "json": "neon/needles/install_ubiquity/installer-disk.json",
+  "properties": [
+
+  ],
+  "needle": "installer-disk",
+  "area": [
+    {
+      "x": 0,
+      "y": 0,
+      "result": "ok",
+      "similarity": 97,
+      "w": "914",
+      "h": "561"
+    }
+  ],
+  "tags": [
+    "installer-disk"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="015_installer-install-now" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-19.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-install-now.png
+</system-out>
+      <system-err>{
+  "screenshot": "ubiquity_oem-19.png",
+  "json": "neon/needles/install_ubiquity/installer-install-now.json",
+  "frametime": [
+    "8.96",
+    "9.00"
+  ],
+  "needle": "installer-install-now",
+  "properties": [
+
+  ],
+  "area": [
+    {
+      "h": "50",
+      "result": "ok",
+      "similarity": 100,
+      "w": "110",
+      "x": 800,
+      "y": 510
+    }
+  ],
+  "tags": [
+    "installer-install-now"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="016_installer-disk-confirm-uefi" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-20.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-disk-confirm-uefi.png
+</system-out>
+      <system-err>{
+  "result": "ok",
+  "tags": [
+    "installer-disk-confirm"
+  ],
+  "needles": [
+    {
+      "area": [
+        {
+          "result": "fail",
+          "similarity": 75,
+          "w": "470",
+          "x": 213,
+          "y": 144,
+          "h": "208"
+        },
+        {
+          "h": "27",
+          "x": 623,
+          "y": 388,
+          "similarity": 100,
+          "result": "ok",
+          "w": "64"
+        },
+        {
+          "h": "30",
+          "result": "ok",
+          "similarity": 100,
+          "w": "76",
+          "x": 526,
+          "y": 385
+        }
+      ],
+      "error": 0.0203334540026343,
+      "name": "installer-disk-confirm-bios",
+      "json": "neon/needles/install_ubiquity/installer-disk-confirm-bios.json"
+    }
+  ],
+  "area": [
+    {
+      "h": "218",
+      "y": 143,
+      "x": 213,
+      "w": "470",
+      "similarity": 100,
+      "result": "ok"
+    },
+    {
+      "h": "27",
+      "x": 623,
+      "y": 387,
+      "similarity": 100,
+      "result": "ok",
+      "w": "64"
+    },
+    {
+      "h": "28",
+      "x": 531,
+      "y": 387,
+      "result": "ok",
+      "similarity": 100,
+      "w": "73"
+    }
+  ],
+  "frametime": [
+    "9.17",
+    "9.21"
+  ],
+  "screenshot": "ubiquity_oem-20.png",
+  "json": "neon/needles/install_ubiquity/installer-disk-confirm-uefi.json",
+  "properties": [
+
+  ],
+  "needle": "installer-disk-confirm-uefi"
+}</system-err>
+    </testcase>
+    <testcase name="017_installer-timezone" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-21.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-timezone.png
+</system-out>
+      <system-err>{
+  "json": "neon/needles/install_ubiquity/installer-timezone.json",
+  "screenshot": "ubiquity_oem-21.png",
+  "frametime": [
+    "9.33",
+    "9.38"
+  ],
+  "needle": "installer-timezone",
+  "properties": [
+
+  ],
+  "area": [
+    {
+      "y": 0,
+      "x": 0,
+      "w": "914",
+      "similarity": 96,
+      "result": "ok",
+      "h": "470"
+    }
+  ],
+  "tags": [
+    "installer-timezone"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="018_installer-next" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-22.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-next.png
+</system-out>
+      <system-err>{
+  "properties": [
+
+  ],
+  "needle": "installer-next",
+  "frametime": [
+    "9.42",
+    "9.46"
+  ],
+  "json": "neon/needles/install_ubiquity/installer-next.json",
+  "screenshot": "ubiquity_oem-22.png",
+  "area": [
+    {
+      "result": "ok",
+      "similarity": 100,
+      "w": "84",
+      "x": 817,
+      "y": 520,
+      "h": "29"
+    }
+  ],
+  "tags": [
+    "installer-next"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="019_installer-keyboard" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-23.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-keyboard.png
+</system-out>
+      <system-err>{
+  "tags": [
+    "installer-keyboard"
+  ],
+  "result": "ok",
+  "properties": [
+
+  ],
+  "needle": "installer-keyboard",
+  "frametime": [
+    "9.62",
+    "9.67"
+  ],
+  "json": "neon/needles/install_ubiquity/installer-keyboard.json",
+  "screenshot": "ubiquity_oem-23.png",
+  "area": [
+    {
+      "h": "470",
+      "result": "ok",
+      "similarity": 96,
+      "w": "914",
+      "x": 0,
+      "y": 0
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="020_installer-next" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-24.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-next.png
+</system-out>
+      <system-err>{
+  "tags": [
+    "installer-next"
+  ],
+  "result": "ok",
+  "screenshot": "ubiquity_oem-24.png",
+  "json": "neon/needles/install_ubiquity/installer-next.json",
+  "frametime": [
+    "9.71",
+    "9.75"
+  ],
+  "needle": "installer-next",
+  "properties": [
+
+  ],
+  "area": [
+    {
+      "x": 817,
+      "y": 520,
+      "result": "ok",
+      "similarity": 100,
+      "w": "84",
+      "h": "29"
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="021_oem-installer-user" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-25.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-installer-user.png
+</system-out>
+      <system-err>{
+  "tags": [
+    "oem-installer-user"
+  ],
+  "result": "ok",
+  "frametime": [
+    "9.88",
+    "9.92"
+  ],
+  "screenshot": "ubiquity_oem-25.png",
+  "json": "neon/needles/install_ubiquity/oem/oem-installer-user.json",
+  "properties": [
+
+  ],
+  "needle": "oem-installer-user",
+  "area": [
+    {
+      "h": "318",
+      "y": 0,
+      "x": 0,
+      "w": "914",
+      "result": "ok",
+      "similarity": 100
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="022_oem-installer-user-complete" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-26.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-installer-user-complete.png
+</system-out>
+      <system-err>{
+  "result": "ok",
+  "tags": [
+    "oem-installer-user-complete"
+  ],
+  "area": [
+    {
+      "h": "308",
+      "y": 0,
+      "x": 0,
+      "w": "914",
+      "result": "ok",
+      "similarity": 98
+    }
+  ],
+  "properties": [
+
+  ],
+  "needle": "oem-installer-user-complete",
+  "frametime": [
+    "11.50",
+    "11.54"
+  ],
+  "screenshot": "ubiquity_oem-26.png",
+  "json": "neon/needles/install_ubiquity/oem/oem-installer-user-complete.json"
+}</system-err>
+    </testcase>
+    <testcase name="023_installer-next" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-27.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-next.png
+</system-out>
+      <system-err>{
+  "area": [
+    {
+      "w": "84",
+      "similarity": 100,
+      "result": "ok",
+      "y": 520,
+      "x": 817,
+      "h": "29"
+    }
+  ],
+  "properties": [
+
+  ],
+  "needle": "installer-next",
+  "frametime": [
+    "11.58",
+    "11.62"
+  ],
+  "json": "neon/needles/install_ubiquity/installer-next.json",
+  "screenshot": "ubiquity_oem-27.png",
+  "result": "ok",
+  "tags": [
+    "installer-next"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="024_installer-show-new" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-28.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-show-new.png
+</system-out>
+      <system-err>{
+  "frametime": [
+    "12.17",
+    "12.21"
+  ],
+  "json": "neon/needles/install_ubiquity/installer-show-new.json",
+  "screenshot": "ubiquity_oem-28.png",
+  "properties": [
+
+  ],
+  "needle": "installer-show-new",
+  "area": [
+    {
+      "h": "62",
+      "y": 235,
+      "x": 5,
+      "w": "142",
+      "similarity": 100,
+      "result": "ok"
+    },
+    {
+      "h": "479",
+      "x": 156,
+      "y": 42,
+      "similarity": 100,
+      "result": "ok",
+      "w": "756"
+    }
+  ],
+  "tags": [
+    "installer-show"
+  ],
+  "needles": [
+    {
+      "name": "installer-show-old",
+      "json": "neon/needles/install_ubiquity/installer-show-old.json",
+      "error": 1,
+      "area": [
+        {
+          "h": "521",
+          "w": "914",
+          "result": "fail",
+          "similarity": 0,
+          "y": 41,
+          "x": 0
+        }
+      ]
+    }
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="025_installer-restart" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-29.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-restart.png
+</system-out>
+      <system-err>{
+  "result": "ok",
+  "tags": [
+    "installer-restart"
+  ],
+  "area": [
+    {
+      "h": "116",
+      "y": 325,
+      "x": 260,
+      "w": "502",
+      "similarity": 100,
+      "result": "ok"
+    }
+  ],
+  "frametime": [
+    "20.75",
+    "20.79"
+  ],
+  "json": "neon/needles/install_ubiquity/installer-restart.json",
+  "screenshot": "ubiquity_oem-29.png",
+  "properties": [
+
+  ],
+  "needle": "installer-restart"
+}</system-err>
+    </testcase>
+    <testcase name="026_installer-restart-now" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-30.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-restart-now.png
+</system-out>
+      <system-err>{
+  "properties": [
+
+  ],
+  "needle": "installer-restart-now",
+  "frametime": [
+    "20.83",
+    "20.88"
+  ],
+  "json": "neon/needles/install_ubiquity/installer-restart-now.json",
+  "screenshot": "ubiquity_oem-30.png",
+  "area": [
+    {
+      "result": "ok",
+      "similarity": 100,
+      "w": "90",
+      "x": 541,
+      "y": 389,
+      "h": "31"
+    }
+  ],
+  "tags": [
+    "installer-restart-now"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="027_live-remove-medium" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-31.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/live/live-remove-medium.png
+</system-out>
+      <system-err>{
+  "result": "ok",
+  "tags": [
+    "live-remove-medium"
+  ],
+  "area": [
+    {
+      "w": "598",
+      "result": "ok",
+      "similarity": 100,
+      "y": 561,
+      "x": 194,
+      "h": "116"
+    }
+  ],
+  "frametime": [
+    "21.75",
+    "21.79"
+  ],
+  "screenshot": "ubiquity_oem-31.png",
+  "json": "neon/needles/live/live-remove-medium.json",
+  "properties": [
+
+  ],
+  "needle": "live-remove-medium"
+}</system-err>
+    </testcase>
+    <testcase name="028_oem-desktop" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-32.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-desktop.png
+</system-out>
+      <system-err>{
+  "tags": [
+    "oem-desktop"
+  ],
+  "result": "ok",
+  "screenshot": "ubiquity_oem-32.png",
+  "json": "neon/needles/install_ubiquity/oem/oem-desktop.json",
+  "frametime": [
+    "23.50",
+    "23.54"
+  ],
+  "needle": "oem-desktop",
+  "properties": [
+
+  ],
+  "area": [
+    {
+      "h": "34",
+      "y": 733,
+      "x": 0,
+      "w": "250",
+      "similarity": 100,
+      "result": "ok"
+    },
+    {
+      "w": "32",
+      "similarity": 98,
+      "result": "ok",
+      "y": 736,
+      "x": 852,
+      "h": "31"
+    },
+    {
+      "y": 22,
+      "x": 31,
+      "w": "52",
+      "similarity": 100,
+      "result": "ok",
+      "h": "48"
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="029_tty6-selected" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-33.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty6-selected.png
+</system-out>
+      <system-err>{
+  "area": [
+    {
+      "h": "22",
+      "x": 373,
+      "y": 15,
+      "result": "ok",
+      "similarity": 93,
+      "w": "36"
+    },
+    {
+      "h": 19.7894736842105,
+      "result": "ok",
+      "similarity": 93,
+      "w": 51.4655870445343,
+      "x": 261,
+      "y": 47
+    }
+  ],
+  "screenshot": "ubiquity_oem-33.png",
+  "json": "neon/needles/tty6-selected.json",
+  "frametime": [
+    "23.96",
+    "24.00"
+  ],
+  "needle": "tty6-selected",
+  "properties": [
+
+  ],
+  "result": "ok",
+  "tags": [
+    "tty6-selected"
+  ],
+  "needles": [
+    {
+      "name": "tty6-selected",
+      "json": "neon/needles/install/tty6-selected.json",
+      "area": [
+        {
+          "result": "ok",
+          "similarity": 100,
+          "w": "38",
+          "x": 373,
+          "y": 15,
+          "h": "22"
+        },
+        {
+          "y": 47,
+          "x": 224,
+          "w": "166",
+          "similarity": 39,
+          "result": "fail",
+          "h": "24"
+        }
+      ],
+      "error": 0.183018254642573
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="030_tty-password" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-34.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install/tty-password.png
+</system-out>
+      <system-err>{
+  "tags": [
+    "tty-password"
+  ],
+  "needles": [
+    {
+      "area": [
+        {
+          "y": 64,
+          "x": 0,
+          "w": "122",
+          "similarity": 67,
+          "result": "fail",
+          "h": "21"
+        }
+      ],
+      "error": 0.106828178959744,
+      "name": "tty-password",
+      "json": "neon/needles/tty-password.json"
+    }
+  ],
+  "result": "ok",
+  "json": "neon/needles/install/tty-password.json",
+  "screenshot": "ubiquity_oem-34.png",
+  "frametime": [
+    "24.04",
+    "24.08"
+  ],
+  "needle": "tty-password",
+  "properties": [
+
+  ],
+  "area": [
+    {
+      "x": 0,
+      "y": 65,
+      "similarity": 100,
+      "result": "ok",
+      "w": "122",
+      "h": "21"
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="031_oem-tty-logged-in" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-35.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-tty-logged-in.png
+</system-out>
+      <system-err>{
+  "result": "ok",
+  "tags": [
+    "tty-logged-in"
+  ],
+  "needles": [
+    {
+      "name": "tty-logged-in",
+      "json": "neon/needles/tty-logged-in.json",
+      "area": [
+        {
+          "h": 22.8571428571428,
+          "w": 23.7142857142857,
+          "similarity": 0,
+          "result": "fail",
+          "y": 306,
+          "x": 62
+        },
+        {
+          "y": 337,
+          "x": 64,
+          "w": 40.8571428571428,
+          "similarity": 0,
+          "result": "fail",
+          "h": 28.8
+        }
+      ],
+      "error": 1
+    },
+    {
+      "area": [
+        {
+          "h": "33",
+          "y": 304,
+          "x": 40,
+          "w": "162",
+          "result": "fail",
+          "similarity": 0
+        }
+      ],
+      "error": 1,
+      "json": "neon/needles/install/tty-logged-in.json",
+      "name": "tty-logged-in"
+    }
+  ],
+  "area": [
+    {
+      "h": "20",
+      "result": "ok",
+      "similarity": 100,
+      "w": "26",
+      "x": 293,
+      "y": 336
+    },
+    {
+      "result": "ok",
+      "similarity": 100,
+      "w": "38",
+      "x": 0,
+      "y": 336,
+      "h": "20"
+    }
+  ],
+  "frametime": [
+    "24.12",
+    "24.17"
+  ],
+  "json": "neon/needles/install_ubiquity/oem/oem-tty-logged-in.json",
+  "screenshot": "ubiquity_oem-35.png",
+  "properties": [
+
+  ],
+  "needle": "oem-tty-logged-in"
+}</system-err>
+    </testcase>
+    <testcase name="032_tty-sudo-passwordprompt" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-36.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-sudo-passwordprompt.png
+</system-out>
+      <system-err>{
+  "properties": [
+
+  ],
+  "needle": "tty-sudo-passwordprompt",
+  "frametime": [
+    "24.42",
+    "24.46"
+  ],
+  "json": "neon/needles/tty-sudo-passwordprompt.json",
+  "screenshot": "ubiquity_oem-36.png",
+  "area": [
+    {
+      "h": 18.2857142857143,
+      "x": 0,
+      "y": 16,
+      "similarity": 92,
+      "result": "ok",
+      "w": 157.428571428571
+    }
+  ],
+  "needles": [
+    {
+      "json": "neon/needles/konsole-sudo-passwordprompt.json",
+      "name": "konsole-sudo-passwordprompt",
+      "error": 1,
+      "area": [
+        {
+          "w": 139.230769230769,
+          "similarity": 0,
+          "result": "fail",
+          "y": 18,
+          "x": 2,
+          "h": 18.2857142857143
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "sudo-passwordprompt"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="033_screenshot_without_match" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-38.png</system-out>
+      <system-err>{
+  "frametime": [
+    "24.58",
+    "24.62"
+  ],
+  "screenshot": "ubiquity_oem-38.png",
+  "result": "unk"
+}</system-err>
+    </testcase>
+    <testcase name="034_wait_serial" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-39.txt</system-out>
+      <system-err>{
+  "text": "ubiquity_oem-39.txt",
+  "title": "wait_serial",
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="035_oem-tty-logged-in" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-40.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-tty-logged-in.png
+</system-out>
+      <system-err>{
+  "needles": [
+    {
+      "error": 0.37003771976491,
+      "area": [
+        {
+          "h": 22.8571428571428,
+          "y": 33,
+          "x": 294,
+          "w": 23.7142857142857,
+          "result": "ok",
+          "similarity": 93
+        },
+        {
+          "x": 88,
+          "y": 33,
+          "similarity": 14,
+          "result": "fail",
+          "w": 40.8571428571428,
+          "h": 28.8
+        }
+      ],
+      "json": "neon/needles/tty-logged-in.json",
+      "name": "tty-logged-in"
+    },
+    {
+      "error": 0.635945559981564,
+      "area": [
+        {
+          "h": "33",
+          "result": "fail",
+          "similarity": 20,
+          "w": "162",
+          "x": 680,
+          "y": 0
+        }
+      ],
+      "json": "neon/needles/install/tty-logged-in.json",
+      "name": "tty-logged-in"
+    }
+  ],
+  "tags": [
+    "log-console"
+  ],
+  "result": "ok",
+  "needle": "oem-tty-logged-in",
+  "properties": [
+
+  ],
+  "json": "neon/needles/install_ubiquity/oem/oem-tty-logged-in.json",
+  "screenshot": "ubiquity_oem-40.png",
+  "frametime": [
+    "24.92",
+    "24.96"
+  ],
+  "area": [
+    {
+      "h": "20",
+      "similarity": 100,
+      "result": "ok",
+      "w": "26",
+      "x": 293,
+      "y": 32
+    },
+    {
+      "h": "20",
+      "y": 32,
+      "x": 0,
+      "w": "38",
+      "result": "ok",
+      "similarity": 100
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="036_screenshot_without_match" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-42.png</system-out>
+      <system-err>{
+  "screenshot": "ubiquity_oem-42.png",
+  "frametime": [
+    "25.29",
+    "25.33"
+  ],
+  "result": "unk"
+}</system-err>
+    </testcase>
+    <testcase name="037_wait_serial" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-43.txt</system-out>
+      <system-err>{
+  "result": "ok",
+  "title": "wait_serial",
+  "text": "ubiquity_oem-43.txt"
+}</system-err>
+    </testcase>
+    <testcase name="038_unmatched_needle" classname="002_ubiquity_oem">
+      <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["sudo-passwordprompt"]' we checked the screen and found
+/artifact/wok/testresults/ubiquity_oem-44.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/konsole-sudo-passwordprompt.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-sudo-passwordprompt.png
+
+BEWARE: previous tests may be displayed as passed but in fact openqa didn't know
+if the result is bad. You'll want to check the preceding tests as well. If they
+were looking for the same tags and also didn't find matches, then there is a
+good chance the failure occured much earlier. e.g. when testing for GRUB, but
+GRUB has unexpected theming or something the system will boot right past GRUB
+and openqa can never find it.
+</system-out>
+      <system-err>{
+  "result": "unk",
+  "screenshot": "ubiquity_oem-44.png",
+  "tags": [
+    "sudo-passwordprompt"
+  ],
+  "frametime": [
+    "25.71",
+    "25.75"
+  ],
+  "needles": [
+    {
+      "error": 1,
+      "area": [
+        {
+          "h": 18.2857142857143,
+          "w": 139.230769230769,
+          "result": "fail",
+          "similarity": 0,
+          "y": 1,
+          "x": 313
+        }
+      ],
+      "json": "neon/needles/konsole-sudo-passwordprompt.json",
+      "name": "konsole-sudo-passwordprompt"
+    },
+    {
+      "name": "tty-sudo-passwordprompt",
+      "json": "neon/needles/tty-sudo-passwordprompt.json",
+      "area": [
+        {
+          "y": 0,
+          "x": 312,
+          "w": 157.428571428571,
+          "similarity": 0,
+          "result": "fail",
+          "h": 18.2857142857143
+        }
+      ],
+      "error": 1
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="039_screenshot_without_match" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-46.png</system-out>
+      <system-err>{
+  "frametime": [
+    "25.79",
+    "25.83"
+  ],
+  "screenshot": "ubiquity_oem-46.png",
+  "result": "unk"
+}</system-err>
+    </testcase>
+    <testcase name="040_wait_serial" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-47.txt</system-out>
+      <system-err>{
+  "title": "wait_serial",
+  "result": "ok",
+  "text": "ubiquity_oem-47.txt"
+}</system-err>
+    </testcase>
+    <testcase name="041_oem-desktop" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-48.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-desktop.png
+</system-out>
+      <system-err>{
+  "tags": [
+    "oem-desktop"
+  ],
+  "result": "ok",
+  "frametime": [
+    "26.54",
+    "26.58"
+  ],
+  "json": "neon/needles/install_ubiquity/oem/oem-desktop.json",
+  "screenshot": "ubiquity_oem-48.png",
+  "properties": [
+
+  ],
+  "needle": "oem-desktop",
+  "area": [
+    {
+      "w": "250",
+      "result": "ok",
+      "similarity": 100,
+      "y": 733,
+      "x": 0,
+      "h": "34"
+    },
+    {
+      "h": "31",
+      "w": "32",
+      "result": "ok",
+      "similarity": 98,
+      "y": 736,
+      "x": 852
+    },
+    {
+      "similarity": 100,
+      "result": "ok",
+      "w": "52",
+      "x": 31,
+      "y": 22,
+      "h": "48"
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="042_oem-desktop" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-49.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-desktop.png
+</system-out>
+      <system-err>{
+  "properties": [
+
+  ],
+  "needle": "oem-desktop",
+  "frametime": [
+    "26.62",
+    "26.67"
+  ],
+  "screenshot": "ubiquity_oem-49.png",
+  "json": "neon/needles/install_ubiquity/oem/oem-desktop.json",
+  "area": [
+    {
+      "h": "34",
+      "x": 0,
+      "y": 733,
+      "similarity": 100,
+      "result": "ok",
+      "w": "250"
+    },
+    {
+      "h": "31",
+      "y": 736,
+      "x": 852,
+      "w": "32",
+      "similarity": 98,
+      "result": "ok"
+    },
+    {
+      "h": "48",
+      "w": "52",
+      "result": "ok",
+      "similarity": 100,
+      "y": 22,
+      "x": 31
+    }
+  ],
+  "tags": [
+    "oem-prepare"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="043_oem-prepare-polkit" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-50.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-prepare-polkit.png
+</system-out>
+      <system-err>{
+  "result": "ok",
+  "tags": [
+    "oem-prepare-polkit"
+  ],
+  "area": [
+    {
+      "h": "335",
+      "x": 252,
+      "y": 159,
+      "result": "ok",
+      "similarity": 100,
+      "w": "501"
+    }
+  ],
+  "frametime": [
+    "26.75",
+    "26.79"
+  ],
+  "screenshot": "ubiquity_oem-50.png",
+  "json": "neon/needles/install_ubiquity/oem/oem-prepare-polkit.json",
+  "properties": [
+
+  ],
+  "needle": "oem-prepare-polkit"
+}</system-err>
+    </testcase>
+    <testcase name="044_oem-tty-logged-in" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-51.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-tty-logged-in.png
+</system-out>
+      <system-err>{
+  "needle": "oem-tty-logged-in",
+  "properties": [
+
+  ],
+  "screenshot": "ubiquity_oem-51.png",
+  "json": "neon/needles/install_ubiquity/oem/oem-tty-logged-in.json",
+  "frametime": [
+    "28.75",
+    "28.79"
+  ],
+  "area": [
+    {
+      "similarity": 100,
+      "result": "ok",
+      "w": "26",
+      "x": 293,
+      "y": 32,
+      "h": "20"
+    },
+    {
+      "h": "20",
+      "result": "ok",
+      "similarity": 100,
+      "w": "38",
+      "x": 0,
+      "y": 32
+    }
+  ],
+  "needles": [
+    {
+      "json": "neon/needles/tty-logged-in.json",
+      "name": "tty-logged-in",
+      "area": [
+        {
+          "h": 22.8571428571428,
+          "w": 23.7142857142857,
+          "similarity": 93,
+          "result": "ok",
+          "y": 33,
+          "x": 294
+        },
+        {
+          "w": 40.8571428571428,
+          "result": "fail",
+          "similarity": 14,
+          "y": 33,
+          "x": 88,
+          "h": 28.8
+        }
+      ],
+      "error": 0.37003771976491
+    },
+    {
+      "name": "tty-logged-in",
+      "json": "neon/needles/install/tty-logged-in.json",
+      "area": [
+        {
+          "h": "33",
+          "x": 432,
+          "y": 16,
+          "similarity": 24,
+          "result": "fail",
+          "w": "162"
+        }
+      ],
+      "error": 0.569445818824462
+    }
+  ],
+  "tags": [
+    "log-console"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="045_unmatched_needle" classname="002_ubiquity_oem">
+      <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["sudo-passwordprompt"]' we checked the screen and found
+/artifact/wok/testresults/ubiquity_oem-52.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/konsole-sudo-passwordprompt.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-sudo-passwordprompt.png
+
+BEWARE: previous tests may be displayed as passed but in fact openqa didn't know
+if the result is bad. You'll want to check the preceding tests as well. If they
+were looking for the same tags and also didn't find matches, then there is a
+good chance the failure occured much earlier. e.g. when testing for GRUB, but
+GRUB has unexpected theming or something the system will boot right past GRUB
+and openqa can never find it.
+</system-out>
+      <system-err>{
+  "needles": [
+    {
+      "error": 1,
+      "area": [
+        {
+          "result": "fail",
+          "similarity": 0,
+          "w": 139.230769230769,
+          "x": 495,
+          "y": 518,
+          "h": 18.2857142857143
+        }
+      ],
+      "name": "konsole-sudo-passwordprompt",
+      "json": "neon/needles/konsole-sudo-passwordprompt.json"
+    },
+    {
+      "error": 1,
+      "area": [
+        {
+          "h": 18.2857142857143,
+          "w": 157.428571428571,
+          "result": "fail",
+          "similarity": 0,
+          "y": 515,
+          "x": 493
+        }
+      ],
+      "json": "neon/needles/tty-sudo-passwordprompt.json",
+      "name": "tty-sudo-passwordprompt"
+    }
+  ],
+  "tags": [
+    "sudo-passwordprompt"
+  ],
+  "screenshot": "ubiquity_oem-52.png",
+  "frametime": [
+    "29.12",
+    "29.17"
+  ],
+  "result": "unk"
+}</system-err>
+    </testcase>
+    <testcase name="046_screenshot_without_match" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-54.png</system-out>
+      <system-err>{
+  "frametime": [
+    "29.38",
+    "29.42"
+  ],
+  "screenshot": "ubiquity_oem-54.png",
+  "result": "unk"
+}</system-err>
+    </testcase>
+    <testcase name="047_wait_serial" classname="002_ubiquity_oem">
+      <failure/>
+      <system-out>/artifact/wok/testresults/ubiquity_oem-55.txt</system-out>
+      <system-err>{
+  "text": "ubiquity_oem-55.txt",
+  "title": "wait_serial",
+  "result": "fail"
+}</system-err>
+    </testcase>
+    <testcase name="048_oem-config" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-56.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-config.png
+</system-out>
+      <system-err>{
+  "tags": [
+    "oem-config"
+  ],
+  "result": "ok",
+  "json": "neon/needles/install_ubiquity/oem/oem-config.json",
+  "screenshot": "ubiquity_oem-56.png",
+  "frametime": [
+    "30.54",
+    "30.58"
+  ],
+  "needle": "oem-config",
+  "properties": [
+
+  ],
+  "area": [
+    {
+      "similarity": 99,
+      "result": "ok",
+      "w": "971",
+      "x": 25,
+      "y": 103,
+      "h": 562.285714285714
+    }
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="049_tty6-selected" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-57.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty6-selected.png
+</system-out>
+      <system-err>{
+  "result": "ok",
+  "needles": [
+    {
+      "name": "tty6-selected",
+      "json": "neon/needles/install/tty6-selected.json",
+      "area": [
+        {
+          "y": 15,
+          "x": 373,
+          "w": "38",
+          "result": "ok",
+          "similarity": 100,
+          "h": "22"
+        },
+        {
+          "w": "166",
+          "similarity": 39,
+          "result": "fail",
+          "y": 47,
+          "x": 224,
+          "h": "24"
+        }
+      ],
+      "error": 0.183018254642573
+    }
+  ],
+  "tags": [
+    "tty6-selected"
+  ],
+  "area": [
+    {
+      "similarity": 93,
+      "result": "ok",
+      "w": "36",
+      "x": 373,
+      "y": 15,
+      "h": "22"
+    },
+    {
+      "w": 51.4655870445343,
+      "result": "ok",
+      "similarity": 93,
+      "y": 47,
+      "x": 261,
+      "h": 19.7894736842105
+    }
+  ],
+  "needle": "tty6-selected",
+  "properties": [
+
+  ],
+  "screenshot": "ubiquity_oem-57.png",
+  "json": "neon/needles/tty6-selected.json",
+  "frametime": [
+    "31.38",
+    "31.42"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="050_tty-password" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-58.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-password.png
+</system-out>
+      <system-err>{
+  "area": [
+    {
+      "h": "21",
+      "x": 0,
+      "y": 64,
+      "result": "ok",
+      "similarity": 94,
+      "w": "122"
+    }
+  ],
+  "properties": [
+
+  ],
+  "needle": "tty-password",
+  "frametime": [
+    "31.46",
+    "31.50"
+  ],
+  "json": "neon/needles/tty-password.json",
+  "screenshot": "ubiquity_oem-58.png",
+  "result": "ok",
+  "needles": [
+    {
+      "json": "neon/needles/install/tty-password.json",
+      "name": "tty-password",
+      "area": [
+        {
+          "w": "122",
+          "result": "fail",
+          "similarity": 72,
+          "y": 65,
+          "x": 0,
+          "h": "21"
+        }
+      ],
+      "error": 0.0736377873035452
+    }
+  ],
+  "tags": [
+    "tty-password"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="051_oem-tty-logged-in" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-59.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-tty-logged-in.png
+</system-out>
+      <system-err>{
+  "properties": [
+
+  ],
+  "needle": "oem-tty-logged-in",
+  "frametime": [
+    "31.88",
+    "31.92"
+  ],
+  "json": "neon/needles/install_ubiquity/oem/oem-tty-logged-in.json",
+  "screenshot": "ubiquity_oem-59.png",
+  "area": [
+    {
+      "w": "26",
+      "similarity": 100,
+      "result": "ok",
+      "y": 176,
+      "x": 293,
+      "h": "20"
+    },
+    {
+      "x": 0,
+      "y": 176,
+      "similarity": 100,
+      "result": "ok",
+      "w": "38",
+      "h": "20"
+    }
+  ],
+  "needles": [
+    {
+      "error": 0.37003771976491,
+      "area": [
+        {
+          "y": 177,
+          "x": 294,
+          "w": 23.7142857142857,
+          "result": "ok",
+          "similarity": 93,
+          "h": 22.8571428571428
+        },
+        {
+          "result": "fail",
+          "similarity": 14,
+          "w": 40.8571428571428,
+          "x": 88,
+          "y": 177,
+          "h": 28.8
+        }
+      ],
+      "json": "neon/needles/tty-logged-in.json",
+      "name": "tty-logged-in"
+    },
+    {
+      "name": "tty-logged-in",
+      "json": "neon/needles/install/tty-logged-in.json",
+      "error": 0.54965113445399,
+      "area": [
+        {
+          "h": "33",
+          "y": 48,
+          "x": 272,
+          "w": "162",
+          "result": "fail",
+          "similarity": 25
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "tty-logged-in"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="052_tty-sudo-passwordprompt" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-60.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-sudo-passwordprompt.png
+</system-out>
+      <system-err>{
+  "properties": [
+
+  ],
+  "needle": "tty-sudo-passwordprompt",
+  "frametime": [
+    "32.21",
+    "32.25"
+  ],
+  "screenshot": "ubiquity_oem-60.png",
+  "json": "neon/needles/tty-sudo-passwordprompt.json",
+  "area": [
+    {
+      "h": 18.2857142857143,
+      "w": 157.428571428571,
+      "similarity": 92,
+      "result": "ok",
+      "y": 16,
+      "x": 0
+    }
+  ],
+  "needles": [
+    {
+      "error": 1,
+      "area": [
+        {
+          "x": 2,
+          "y": 18,
+          "result": "fail",
+          "similarity": 0,
+          "w": 139.230769230769,
+          "h": 18.2857142857143
+        }
+      ],
+      "name": "konsole-sudo-passwordprompt",
+      "json": "neon/needles/konsole-sudo-passwordprompt.json"
+    }
+  ],
+  "tags": [
+    "sudo-passwordprompt"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="053_screenshot_without_match" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-62.png</system-out>
+      <system-err>{
+  "result": "unk",
+  "frametime": [
+    "32.33",
+    "32.38"
+  ],
+  "screenshot": "ubiquity_oem-62.png"
+}</system-err>
+    </testcase>
+    <testcase name="054_wait_serial" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-63.txt</system-out>
+      <system-err>{
+  "text": "ubiquity_oem-63.txt",
+  "result": "ok",
+  "title": "wait_serial"
+}</system-err>
+    </testcase>
+    <testcase name="055_oem-tty-logged-in" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-64.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-tty-logged-in.png
+</system-out>
+      <system-err>{
+  "json": "neon/needles/install_ubiquity/oem/oem-tty-logged-in.json",
+  "screenshot": "ubiquity_oem-64.png",
+  "frametime": [
+    "32.67",
+    "32.71"
+  ],
+  "needle": "oem-tty-logged-in",
+  "properties": [
+
+  ],
+  "area": [
+    {
+      "h": "20",
+      "w": "26",
+      "similarity": 100,
+      "result": "ok",
+      "y": 32,
+      "x": 293
+    },
+    {
+      "w": "38",
+      "result": "ok",
+      "similarity": 100,
+      "y": 32,
+      "x": 0,
+      "h": "20"
+    }
+  ],
+  "tags": [
+    "log-console"
+  ],
+  "needles": [
+    {
+      "error": 0.37003771976491,
+      "area": [
+        {
+          "x": 294,
+          "y": 33,
+          "similarity": 93,
+          "result": "ok",
+          "w": 23.7142857142857,
+          "h": 22.8571428571428
+        },
+        {
+          "h": 28.8,
+          "x": 88,
+          "y": 33,
+          "result": "fail",
+          "similarity": 14,
+          "w": 40.8571428571428
+        }
+      ],
+      "name": "tty-logged-in",
+      "json": "neon/needles/tty-logged-in.json"
+    },
+    {
+      "name": "tty-logged-in",
+      "json": "neon/needles/install/tty-logged-in.json",
+      "area": [
+        {
+          "result": "fail",
+          "similarity": 20,
+          "w": "162",
+          "x": 680,
+          "y": 0,
+          "h": "33"
+        }
+      ],
+      "error": 0.635945559981564
+    }
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="056_unmatched_needle" classname="002_ubiquity_oem">
+      <system-out>This was a check but not an assertion!!!
+
+To satisfy a test for the tags '["sudo-passwordprompt"]' we checked the screen and found
+/artifact/wok/testresults/ubiquity_oem-65.png
+but expected any of:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/konsole-sudo-passwordprompt.png
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/tty-sudo-passwordprompt.png
+
+BEWARE: previous tests may be displayed as passed but in fact openqa didn't know
+if the result is bad. You'll want to check the preceding tests as well. If they
+were looking for the same tags and also didn't find matches, then there is a
+good chance the failure occured much earlier. e.g. when testing for GRUB, but
+GRUB has unexpected theming or something the system will boot right past GRUB
+and openqa can never find it.
+</system-out>
+      <system-err>{
+  "result": "unk",
+  "needles": [
+    {
+      "error": 1,
+      "area": [
+        {
+          "x": 313,
+          "y": 1,
+          "similarity": 0,
+          "result": "fail",
+          "w": 139.230769230769,
+          "h": 18.2857142857143
+        }
+      ],
+      "json": "neon/needles/konsole-sudo-passwordprompt.json",
+      "name": "konsole-sudo-passwordprompt"
+    },
+    {
+      "error": 1,
+      "area": [
+        {
+          "similarity": 0,
+          "result": "fail",
+          "w": 157.428571428571,
+          "x": 312,
+          "y": 0,
+          "h": 18.2857142857143
+        }
+      ],
+      "name": "tty-sudo-passwordprompt",
+      "json": "neon/needles/tty-sudo-passwordprompt.json"
+    }
+  ],
+  "tags": [
+    "sudo-passwordprompt"
+  ],
+  "screenshot": "ubiquity_oem-65.png",
+  "frametime": [
+    "33.08",
+    "33.12"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="057_screenshot_without_match" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-67.png</system-out>
+      <system-err>{
+  "screenshot": "ubiquity_oem-67.png",
+  "frametime": [
+    "33.21",
+    "33.25"
+  ],
+  "result": "unk"
+}</system-err>
+    </testcase>
+    <testcase name="058_wait_serial" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-68.txt</system-out>
+      <system-err>{
+  "text": "ubiquity_oem-68.txt",
+  "result": "ok",
+  "title": "wait_serial"
+}</system-err>
+    </testcase>
+    <testcase name="059_oem-config" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-69.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-config.png
+</system-out>
+      <system-err>{
+  "area": [
+    {
+      "h": 562.285714285714,
+      "y": 103,
+      "x": 25,
+      "w": "971",
+      "result": "ok",
+      "similarity": 99
+    }
+  ],
+  "needle": "oem-config",
+  "properties": [
+
+  ],
+  "screenshot": "ubiquity_oem-69.png",
+  "json": "neon/needles/install_ubiquity/oem/oem-config.json",
+  "frametime": [
+    "33.25",
+    "33.29"
+  ],
+  "result": "ok",
+  "tags": [
+    "oem-config"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="060_oem-config" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-70.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-config.png
+</system-out>
+      <system-err>{
+  "frametime": [
+    "33.33",
+    "33.38"
+  ],
+  "json": "neon/needles/install_ubiquity/oem/oem-config.json",
+  "screenshot": "ubiquity_oem-70.png",
+  "properties": [
+
+  ],
+  "needle": "oem-config",
+  "area": [
+    {
+      "y": 103,
+      "x": 25,
+      "w": "971",
+      "similarity": 99,
+      "result": "ok",
+      "h": 562.285714285714
+    }
+  ],
+  "tags": [
+    "oem-config"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="061_installer-next" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-71.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-next.png
+</system-out>
+      <system-err>{
+  "area": [
+    {
+      "w": "84",
+      "result": "ok",
+      "similarity": 100,
+      "y": 620,
+      "x": 896,
+      "h": "29"
+    }
+  ],
+  "needle": "installer-next",
+  "properties": [
+
+  ],
+  "json": "neon/needles/install_ubiquity/installer-next.json",
+  "screenshot": "ubiquity_oem-71.png",
+  "frametime": [
+    "33.75",
+    "33.79"
+  ],
+  "result": "ok",
+  "tags": [
+    "installer-next"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="062_oem-config-timezone" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-72.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-config-timezone.png
+</system-out>
+      <system-err>{
+  "screenshot": "ubiquity_oem-72.png",
+  "json": "neon/needles/install_ubiquity/oem/oem-config-timezone.json",
+  "frametime": [
+    "33.96",
+    "34.00"
+  ],
+  "needle": "oem-config-timezone",
+  "properties": [
+
+  ],
+  "area": [
+    {
+      "result": "ok",
+      "similarity": 100,
+      "w": "107",
+      "x": 39,
+      "y": 201,
+      "h": "64"
+    },
+    {
+      "similarity": 99,
+      "result": "ok",
+      "w": "814",
+      "x": 182,
+      "y": 131,
+      "h": "435"
+    }
+  ],
+  "tags": [
+    "oem-config-timezone"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="063_installer-next" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-73.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-next.png
+</system-out>
+      <system-err>{
+  "json": "neon/needles/install_ubiquity/installer-next.json",
+  "screenshot": "ubiquity_oem-73.png",
+  "frametime": [
+    "34.38",
+    "34.42"
+  ],
+  "needle": "installer-next",
+  "properties": [
+
+  ],
+  "area": [
+    {
+      "h": "29",
+      "w": "84",
+      "result": "ok",
+      "similarity": 100,
+      "y": 620,
+      "x": 896
+    }
+  ],
+  "tags": [
+    "installer-next"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="064_oem-config-keyboard" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-74.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-config-keyboard.png
+</system-out>
+      <system-err>{
+  "result": "ok",
+  "tags": [
+    "oem-config-keyboard"
+  ],
+  "area": [
+    {
+      "h": "64",
+      "y": 241,
+      "x": 38,
+      "w": "107",
+      "result": "ok",
+      "similarity": 100
+    },
+    {
+      "x": 182,
+      "y": 131,
+      "similarity": 100,
+      "result": "ok",
+      "w": "814",
+      "h": "435"
+    }
+  ],
+  "frametime": [
+    "34.54",
+    "34.58"
+  ],
+  "json": "neon/needles/install_ubiquity/oem/oem-config-keyboard.json",
+  "screenshot": "ubiquity_oem-74.png",
+  "properties": [
+
+  ],
+  "needle": "oem-config-keyboard"
+}</system-err>
+    </testcase>
+    <testcase name="065_installer-next" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-75.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-next.png
+</system-out>
+      <system-err>{
+  "properties": [
+
+  ],
+  "needle": "installer-next",
+  "frametime": [
+    "34.96",
+    "35.00"
+  ],
+  "json": "neon/needles/install_ubiquity/installer-next.json",
+  "screenshot": "ubiquity_oem-75.png",
+  "area": [
+    {
+      "y": 620,
+      "x": 896,
+      "w": "84",
+      "similarity": 100,
+      "result": "ok",
+      "h": "29"
+    }
+  ],
+  "tags": [
+    "installer-next"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="066_oem-config-user" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-76.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-config-user.png
+</system-out>
+      <system-err>{
+  "result": "ok",
+  "tags": [
+    "oem-config-user"
+  ],
+  "area": [
+    {
+      "y": 133,
+      "x": 33,
+      "w": "914",
+      "similarity": 100,
+      "result": "ok",
+      "h": "470"
+    }
+  ],
+  "needle": "oem-config-user",
+  "properties": [
+
+  ],
+  "screenshot": "ubiquity_oem-76.png",
+  "json": "neon/needles/install_ubiquity/oem/oem-config-user.json",
+  "frametime": [
+    "35.08",
+    "35.12"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="067_oem-config-user-user" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-77.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-config-user-user.png
+</system-out>
+      <system-err>{
+  "result": "ok",
+  "tags": [
+    "oem-config-user-user"
+  ],
+  "area": [
+    {
+      "similarity": 100,
+      "result": "ok",
+      "w": "914",
+      "x": 32,
+      "y": 132,
+      "h": "308"
+    }
+  ],
+  "needle": "oem-config-user-user",
+  "properties": [
+
+  ],
+  "json": "neon/needles/install_ubiquity/oem/oem-config-user-user.json",
+  "screenshot": "ubiquity_oem-77.png",
+  "frametime": [
+    "35.17",
+    "35.21"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="068_oem-config-user-complete" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-78.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-config-user-complete.png
+</system-out>
+      <system-err>{
+  "properties": [
+
+  ],
+  "needle": "oem-config-user-complete",
+  "frametime": [
+    "40.00",
+    "40.04"
+  ],
+  "screenshot": "ubiquity_oem-78.png",
+  "json": "neon/needles/install_ubiquity/oem/oem-config-user-complete.json",
+  "area": [
+    {
+      "h": "308",
+      "x": 31,
+      "y": 130,
+      "result": "ok",
+      "similarity": 95,
+      "w": "914"
+    }
+  ],
+  "tags": [
+    "oem-config-user-complete"
+  ],
+  "result": "ok"
+}</system-err>
+    </testcase>
+    <testcase name="069_installer-next" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-79.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/installer-next.png
+</system-out>
+      <system-err>{
+  "result": "ok",
+  "tags": [
+    "installer-next"
+  ],
+  "area": [
+    {
+      "y": 620,
+      "x": 896,
+      "w": "84",
+      "similarity": 100,
+      "result": "ok",
+      "h": "29"
+    }
+  ],
+  "properties": [
+
+  ],
+  "needle": "installer-next",
+  "frametime": [
+    "40.42",
+    "40.46"
+  ],
+  "screenshot": "ubiquity_oem-79.png",
+  "json": "neon/needles/install_ubiquity/installer-next.json"
+}</system-err>
+    </testcase>
+    <testcase name="070_oem-config-show" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-80.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/install_ubiquity/oem/oem-config-show.png
+</system-out>
+      <system-err>{
+  "area": [
+    {
+      "h": "251",
+      "y": 132,
+      "x": 39,
+      "w": "427",
+      "result": "ok",
+      "similarity": 100
+    },
+    {
+      "similarity": 100,
+      "result": "ok",
+      "w": "756",
+      "x": 188,
+      "y": 151,
+      "h": "479"
+    }
+  ],
+  "frametime": [
+    "40.96",
+    "41.00"
+  ],
+  "json": "neon/needles/install_ubiquity/oem/oem-config-show.json",
+  "screenshot": "ubiquity_oem-80.png",
+  "properties": [
+
+  ],
+  "needle": "oem-config-show",
+  "result": "ok",
+  "tags": [
+    "oem-config-show"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="071_sddm" classname="002_ubiquity_oem">
+      <system-out>/artifact/wok/testresults/ubiquity_oem-81.png
+matched:
+https://raw.githubusercontent.com/apachelogger/kde-os-autoinst/a857ddabfee8fc36d10b298a29f6753c2d9249c7/neon/needles/sddm.png
+</system-out>
+      <system-err>{
+  "result": "ok",
+  "tags": [
+    "sddm"
+  ],
+  "area": [
+    {
+      "h": "477",
+      "w": "862",
+      "result": "ok",
+      "similarity": 100,
+      "y": 211,
+      "x": 91
+    }
+  ],
+  "needle": "sddm",
+  "properties": [
+
+  ],
+  "screenshot": "ubiquity_oem-81.png",
+  "json": "neon/needles/sddm.json",
+  "frametime": [
+    "43.42",
+    "43.46"
+  ]
+}</system-err>
+    </testcase>
+    <testcase name="all" classname="002_ubiquity_oem"/>
+  </testsuite>
+</testsuites>
