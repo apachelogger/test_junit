@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CMakeDepVerify::PackageTest" tests="2" time="0.012972921" failures="0" errors="0" skipped="0" assertions="16" timestamp="2019-06-27T13:06:27+02:00">
+  <testcase name="test_test_fail" time="0.006641611" assertions="8">
+  </testcase>
+  <testcase name="test_test_success" time="0.006112117" assertions="8">
+  </testcase>
+  <system-out>
+[�[32m74a883e7�[0m] �[34m(dry run)�[0m �[33;1mcd /tmp/d20190627-23078-ciw5zk &amp;&amp; cmake .�[0m
+  </system-out>
+  <system-err>
+/home/me/src/git/pangea-tooling/ci-tooling/lib/apt.rb:85: warning: instance variable @auto_update_disabled not initialized
+/home/me/src/git/pangea-tooling/ci-tooling/lib/apt.rb:85: warning: instance variable @auto_update_disabled not initialized
+/home/me/src/git/pangea-tooling/ci-tooling/lib/apt.rb:85: warning: instance variable @auto_update_disabled not initialized
+/home/me/src/git/pangea-tooling/ci-tooling/lib/apt.rb:85: warning: instance variable @auto_update_disabled not initialized
+/home/me/src/git/pangea-tooling/ci-tooling/lib/apt.rb:85: warning: instance variable @auto_update_disabled not initialized
+  </system-err>
+</testsuite>

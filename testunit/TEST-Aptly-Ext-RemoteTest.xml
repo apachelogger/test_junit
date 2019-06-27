@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Aptly::Ext::RemoteTest" tests="8" time="0.016535867" failures="0" errors="0" skipped="0" assertions="28" timestamp="2019-03-25T14:30:22+01:00">
+  <testcase name="test_connect_http" time="0.003123428" assertions="1">
+  </testcase>
+  <testcase name="test_connect_socket" time="0.002724469" assertions="8">
+  </testcase>
+  <testcase name="test_connect_tcp" time="0.00224392" assertions="6">
+  </testcase>
+  <testcase name="test_connects_http" time="0.001546558" assertions="3">
+  </testcase>
+  <testcase name="test_connects_with_path" time="0.001505562" assertions="3">
+  </testcase>
+  <testcase name="test_connects_without_path" time="0.00153112" assertions="3">
+  </testcase>
+  <testcase name="test_neon" time="0.00166123" assertions="2">
+  </testcase>
+  <testcase name="test_neon_read_only" time="0.001736859" assertions="2">
+  </testcase>
+</testsuite>

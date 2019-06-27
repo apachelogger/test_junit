@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NCI::DebianMerge::NCIRepositoryTest" tests="8" time="1.235006463" failures="0" errors="0" skipped="0" assertions="18" timestamp="2019-06-27T13:06:30+02:00">
+  <testcase name="test_bad_latest_tag" time="0.074188162" assertions="2">
+  </testcase>
+  <testcase name="test_clonery" time="0.09393745" assertions="3">
+  </testcase>
+  <testcase name="test_last_tag_with_override" time="0.086352361" assertions="1">
+  </testcase>
+  <testcase name="test_noop_already_merged" time="0.077133333" assertions="2">
+  </testcase>
+  <testcase name="test_orphan_branch" time="0.093433013" assertions="2">
+  </testcase>
+  <testcase name="test_push_mangle" time="0.783544545" assertions="2">
+  </testcase>
+  <testcase name="test_rugged_ssh_fail" time="0.002625563" assertions="2">
+  </testcase>
+  <testcase name="test_ssh_cred" time="0.023094277" assertions="4">
+  </testcase>
+  <system-out>
+file:///tmp/NCI__DebianMerge__NCIRepositoryTest20190627-23078-r6d6b0/remote/fishy, debian/2, debian/5-0
+file:///tmp/NCI__DebianMerge__NCIRepositoryTest20190627-23078-1imlri3/remote/fishy, debian/2, debian/2-0
+/tmp/NCI__DebianMerge__NCIRepositoryTest20190627-23078-1imlri3/fishy : debian/2-0
+pull url file:///tmp/NCI__DebianMerge__NCIRepositoryTest20190627-23078-1imlri3/remote/fishy
+tip:: ["refs/remotes/origin/Neon/pending-merge", nil, "4d4ed3e375a6bf6bcf2d6d25b5726581bbae8041"]
+file:///tmp/NCI__DebianMerge__NCIRepositoryTest20190627-23078-kgenl5/remote/kpackage, debian/1.17.0, debian/1.17.1-0
+"debian/1.17.0"
+["debian/1.17.1"]
+/tmp/NCI__DebianMerge__NCIRepositoryTest20190627-23078-kgenl5/kpackage : debian/1.17.1-0
+pull url file:///tmp/NCI__DebianMerge__NCIRepositoryTest20190627-23078-kgenl5/remote/kpackage
+tip:: ["refs/remotes/origin/Neon/pending-merge", nil, "4d4ed3e375a6bf6bcf2d6d25b5726581bbae8041"]
+file:///tmp/NCI__DebianMerge__NCIRepositoryTest20190627-23078-o75i8t/remote/fishy, debian/2, debian/2-0
+/tmp/NCI__DebianMerge__NCIRepositoryTest20190627-23078-o75i8t/fishy : debian/2-0
+file:///tmp/NCI__DebianMerge__NCIRepositoryTest20190627-23078-1ipp71g/remote/fishy, debian/2, debian/2-0
+/tmp/NCI__DebianMerge__NCIRepositoryTest20190627-23078-1ipp71g/fishy : debian/2-0
+-- remot set-url
+Running �[33;1mnslookup anongit.neon.kde.org�[0m
+	Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+Non-authoritative answer:
+anongit.neon.kde.org	canonical name = neon.anonscm.local-kde.org.
+Name:	neon.anonscm.local-kde.org
+Address: 138.197.213.241
+Name:	neon.anonscm.local-kde.org
+Address: 2604:a880:2:d0::207d:f001
+
+Finished in 0.207 seconds with exit status 0 (�[32;1msuccessful�[0m)
+Running �[33;1mgit remote set-url origin git://anongit.neon.kde.org/kde/khtml�[0m
+Finished in 0.002 seconds with exit status 0 (�[32;1msuccessful�[0m)
+
+pull url git://anongit.neon.kde.org/kde/khtml
+mangle to neon@git.neon.kde.org:kde/khtml
+Running �[33;1mgit remote show origin�[0m
+	* remote origin
+  Fetch URL: git://anongit.neon.kde.org/kde/khtml
+  Push  URL: neon@git.neon.kde.org:kde/khtml
+  HEAD branch: master
+  Remote branches:
+    Neon/release                new (next fetch will store in remotes/origin)
+    Neon/release-lts            new (next fetch will store in remotes/origin)
+    Neon/release-lts_xenial     new (next fetch will store in remotes/origin)
+    Neon/release_xenial         new (next fetch will store in remotes/origin)
+    Neon/unstable               new (next fetch will store in remotes/origin)
+    Neon/unstable-backup        new (next fetch will store in remotes/origin)
+    Neon/unstable-backup_xenial new (next fetch will store in remotes/origin)
+    Neon/unstable_merge         new (next fetch will store in remotes/origin)
+    Neon/unstable_xenial        new (next fetch will store in remotes/origin)
+    master                      new (next fetch will store in remotes/origin)
+  Local branch configured for 'git pull':
+    master merges with remote master
+Finished in 0.554 seconds with exit status 0 (�[32;1msuccessful�[0m)
+  </system-out>
+  <system-err>
+Tag expectations not matching, checking overrides.
+Tag expectations not matching, checking overrides.
+/home/me/src/git/pangea-tooling/nci/debian-merge/repository.rb:82: warning: instance variable @dirty not initialized
+fishy ret: * remote origin
+  Fetch URL: git://anongit.neon.kde.org/kde/khtml
+  Push  URL: neon@git.neon.kde.org:kde/khtml
+  HEAD branch: master
+  Remote branches:
+    Neon/release                new (next fetch will store in remotes/origin)
+    Neon/release-lts            new (next fetch will store in remotes/origin)
+    Neon/release-lts_xenial     new (next fetch will store in remotes/origin)
+    Neon/release_xenial         new (next fetch will store in remotes/origin)
+    Neon/unstable               new (next fetch will store in remotes/origin)
+    Neon/unstable-backup        new (next fetch will store in remotes/origin)
+    Neon/unstable-backup_xenial new (next fetch will store in remotes/origin)
+    Neon/unstable_merge         new (next fetch will store in remotes/origin)
+    Neon/unstable_xenial        new (next fetch will store in remotes/origin)
+    master                      new (next fetch will store in remotes/origin)
+  Local branch configured for 'git pull':
+    master merges with remote master; $? pid 25197 exit 0
+  </system-err>
+</testsuite>

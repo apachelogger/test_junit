@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NCI::JenkinsJobArtifactCleanerTest" tests="1" time="0.003392788" failures="0" errors="0" skipped="0" assertions="13" timestamp="2019-06-27T13:06:32+02:00">
+  <testcase name="test_clean" time="0.003295485" assertions="13">
+  </testcase>
+  <system-out>
+Cleaning aa in /tmp/NCI__JenkinsJobArtifactCleanerTest20190627-23078-tj71a1/jobs/aa/builds/lastSuccessfulBuild/archive
+Cleaning bb in /tmp/NCI__JenkinsJobArtifactCleanerTest20190627-23078-tj71a1/jobs/bb/builds/lastSuccessfulBuild/archive
+Cleaning foobasename in /tmp/NCI__JenkinsJobArtifactCleanerTest20190627-23078-tj71a1/jobs/foobasename/builds/42/archive
+  </system-out>
+  <system-err>
+Cleaning up job artifacts to conserve disk space.
+  </system-err>
+</testsuite>

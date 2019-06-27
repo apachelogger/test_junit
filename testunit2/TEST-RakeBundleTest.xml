@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RakeBundleTest" tests="2" time="0.02088792" failures="0" errors="0" skipped="0" assertions="11" timestamp="2019-06-27T13:06:33+02:00">
+  <testcase name="test_bundle" time="0.009810058" assertions="5">
+  </testcase>
+  <testcase name="test_bundle_nameerror" time="0.010839063" assertions="6">
+  </testcase>
+</testsuite>

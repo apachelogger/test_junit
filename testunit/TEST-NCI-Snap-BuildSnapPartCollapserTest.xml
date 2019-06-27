@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NCI::Snap::BuildSnapPartCollapserTest" tests="2" time="0.003851384" failures="0" errors="0" skipped="0" assertions="7" timestamp="2019-03-25T14:30:30+01:00">
+  <testcase name="test_part_collapse" time="0.002046141" assertions="6">
+  </testcase>
+  <testcase name="test_part_no_cmake" time="0.001669753" assertions="1">
+  </testcase>
+</testsuite>

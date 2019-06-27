@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NCI::VersionsTestTest" tests="6" time="0.070182171" failures="0" errors="0" skipped="0" assertions="5" timestamp="2019-06-27T13:06:32+02:00">
+  <testcase name="test_default_repo" time="0.002908222" assertions="1">
+  </testcase>
+  <testcase name="test_file_lister" time="0.016768183" assertions="0">
+  </testcase>
+  <testcase name="test_file_lister_bad_version" time="0.012917241" assertions="1">
+  </testcase>
+  <testcase name="test_override_packages" time="0.004775582" assertions="1">
+  </testcase>
+  <testcase name="test_pure_virtual" time="0.00992546" assertions="0">
+  </testcase>
+  <testcase name="test_repo" time="0.022485965" assertions="2">
+  </testcase>
+  <system-out>
+backticking: dpkg-architecture -qDEB_HOST_ARCH
+pid 25643 exit 0
+  </system-out>
+  <system-err>
+/home/me/src/git/pangea-tooling/nci/lint/versions.rb:277: warning: method redefined; discarding old test_bar_2.0
+/home/me/src/git/pangea-tooling/nci/lint/versions.rb:277: warning: previous definition of test_bar_2.0 was here
+/home/me/src/git/pangea-tooling/nci/lint/versions.rb:277: warning: method redefined; discarding old test_foo_1.0
+/home/me/src/git/pangea-tooling/nci/lint/versions.rb:277: warning: previous definition of test_foo_1.0 was here
+/home/me/src/git/pangea-tooling/nci/lint/versions.rb:277: warning: method redefined; discarding old test_bar_2.0
+/home/me/src/git/pangea-tooling/nci/lint/versions.rb:277: warning: previous definition of test_bar_2.0 was here
+/home/me/src/git/pangea-tooling/nci/lint/versions.rb:277: warning: method redefined; discarding old test_foo_1.0
+/home/me/src/git/pangea-tooling/nci/lint/versions.rb:277: warning: previous definition of test_foo_1.0 was here
+  </system-err>
+</testsuite>

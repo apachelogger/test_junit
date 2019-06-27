@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NCI::Snap::Extendertest" tests="4" time="0.023571678" failures="0" errors="0" skipped="0" assertions="12" timestamp="2019-06-27T13:06:32+02:00">
+  <testcase name="test_extend" time="0.008296491" assertions="4">
+  </testcase>
+  <testcase name="test_extend_core18" time="0.00861752" assertions="4">
+  </testcase>
+  <testcase name="test_release_no_gitification" time="0.004058568" assertions="3">
+  </testcase>
+  <testcase name="test_release_with_git" time="0.002167916" assertions="1">
+  </testcase>
+</testsuite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BranchSequenceTest" tests="4" time="0.305232585" failures="0" errors="0" skipped="0" assertions="10" timestamp="2019-03-25T14:30:22+01:00">
+  <testcase name="test_full_sequence" time="0.150194444" assertions="7">
+  </testcase>
+  <testcase name="test_no_middle" time="0.06093354" assertions="1">
+  </testcase>
+  <testcase name="test_no_stable" time="0.047569766" assertions="1">
+  </testcase>
+  <testcase name="test_no_unstable" time="0.046225014" assertions="1">
+  </testcase>
+  <system-out>
+Merging remotes/origin/Neon/stable[f5b91f9b] into Neon/unstable[0956f7ae]
+Merge made by the 'recursive' strategy.
+ stable_c2 | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 stable_c2
+After merge: Neon/unstable[b7b4cad9]
+Merging Neon/unstable[b7b4cad9] into Neon/unstable-very[bddd70a9]
+Merge made by the 'recursive' strategy.
+ stable_c2 | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 stable_c2
+After merge: Neon/unstable-very[4de41aef]
+Checking if we can push something on Neon/unstable
+...pushing Neon/unstable[b7b4cad9]
+Checking if we can push something on Neon/unstable-very
+...pushing Neon/unstable-very[4de41aef]
+Not pushing, isn't a branch: Neon/yolo
+Checking if we can push something on Neon/unstable
+...nothing to push for Neon/unstable
+Checking if we can push something on Neon/unstable
+...nothing to push for Neon/unstable
+Checking if we can push something on Neon/stable
+...nothing to push for Neon/stable
+  </system-out>
+</testsuite>

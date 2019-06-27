@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NCI::DockerHubTest::NCIDockerHubTest" tests="2" time="0.004822097" failures="0" errors="0" skipped="0" assertions="2" timestamp="2019-06-27T13:06:31+02:00">
+  <testcase name="test_email" time="0.002380198" assertions="1">
+  </testcase>
+  <testcase name="test_run" time="0.002243108" assertions="1">
+  </testcase>
+  <system-out>
+/home/me/src/git/pangea-tooling/test/data/test_nci_docker_hub_check/test_run/dockerhub.json
+  </system-out>
+</testsuite>

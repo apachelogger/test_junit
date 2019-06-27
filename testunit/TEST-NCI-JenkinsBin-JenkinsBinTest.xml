@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NCI::JenkinsBin::JenkinsBinTest" tests="9" time="0.014348256" failures="0" errors="0" skipped="0" assertions="12" timestamp="2019-03-25T14:30:30+01:00">
+  <testcase name="test_core_coercion_downgrade" time="0.001686562" assertions="1">
+  </testcase>
+  <testcase name="test_core_coercion_upgrade" time="0.001499904" assertions="1">
+  </testcase>
+  <testcase name="test_cores_downgrade_2" time="0.001500825" assertions="1">
+  </testcase>
+  <testcase name="test_cores_downgrade_4" time="0.001474626" assertions="1">
+  </testcase>
+  <testcase name="test_cores_downgrade_8" time="0.001492743" assertions="1">
+  </testcase>
+  <testcase name="test_cores_upgrade_2" time="0.001605037" assertions="1">
+  </testcase>
+  <testcase name="test_cores_upgrade_4" time="0.001483686" assertions="1">
+  </testcase>
+  <testcase name="test_cores_upgrade_8" time="0.001584281" assertions="1">
+  </testcase>
+  <testcase name="test_slave" time="0.001539188" assertions="4">
+  </testcase>
+</testsuite>

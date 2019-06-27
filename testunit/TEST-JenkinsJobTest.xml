@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JenkinsJobTest" tests="10" time="2.804379308" failures="0" errors="0" skipped="0" assertions="162" timestamp="2019-03-25T14:30:25+01:00">
+  <testcase name="test_class_var" time="0.001999977" assertions="1">
+  </testcase>
+  <testcase name="test_init" time="0.002067951" assertions="3">
+  </testcase>
+  <testcase name="test_init_fail" time="0.001871679" assertions="1">
+  </testcase>
+  <testcase name="test_mass_include" time="2.778329006" assertions="140">
+  </testcase>
+  <testcase name="test_render_path" time="0.002686757" assertions="1">
+  </testcase>
+  <testcase name="test_render_template" time="0.002191907" assertions="1">
+  </testcase>
+  <testcase name="test_to_s" time="0.001860673" assertions="2">
+  </testcase>
+  <testcase name="test_update" time="0.004492744" assertions="5">
+  </testcase>
+  <testcase name="test_update_raise" time="0.005757494" assertions="7">
+  </testcase>
+  <testcase name="test_xml_debug" time="0.002558467" assertions="1">
+  </testcase>
+  <system-out>
+Error on retry_it(unknown) :: RuntimeError
+  </system-out>
+  <system-err>
+/home/me/src/git/pangea-tooling/jenkins-jobs/job.rb:62: warning: instance variable @debug not initialized
+/home/me/src/git/pangea-tooling/jenkins-jobs/job.rb:62: warning: instance variable @debug not initialized
+/home/me/src/git/pangea-tooling/jenkins-jobs/job.rb:62: warning: instance variable @debug not initialized
+  </system-err>
+</testsuite>

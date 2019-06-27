@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CMakeDepVerify::JUnit::SuiteTest" tests="2" time="0.005098838" failures="0" errors="0" skipped="0" assertions="2" timestamp="2019-06-27T13:06:27+02:00">
+  <testcase name="test_gold" time="0.002968522" assertions="1">
+  </testcase>
+  <testcase name="test_init" time="0.001975296" assertions="1">
+  </testcase>
+  <system-err>
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/xml/document.rb:44: warning: constant ::Fixnum is deprecated
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/xml/document.rb:44: warning: constant ::Fixnum is deprecated
+  </system-err>
+</testsuite>

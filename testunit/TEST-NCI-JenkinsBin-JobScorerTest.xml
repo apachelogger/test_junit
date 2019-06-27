@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NCI::JenkinsBin::JobScorerTest" tests="1" time="0.003605551" failures="0" errors="0" skipped="0" assertions="3" timestamp="2019-03-25T14:30:30+01:00">
+  <testcase name="test_run" time="0.003505275" assertions="3">
+  </testcase>
+  <system-err>
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/jenkins_api_client-1.5.3/lib/jenkins_api_client/client.rb:122: warning: instance variable @server_url not initialized
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/jenkins_api_client-1.5.3/lib/jenkins_api_client/client.rb:140: warning: instance variable @proxy_ip not initialized
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/jenkins_api_client-1.5.3/lib/jenkins_api_client/client.rb:140: warning: instance variable @proxy_port not initialized
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/jenkins_api_client-1.5.3/lib/jenkins_api_client/client.rb:148: warning: instance variable @timeout not initialized
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/jenkins_api_client-1.5.3/lib/jenkins_api_client/client.rb:149: warning: instance variable @http_open_timeout not initialized
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/jenkins_api_client-1.5.3/lib/jenkins_api_client/client.rb:150: warning: instance variable @http_read_timeout not initialized
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/jenkins_api_client-1.5.3/lib/jenkins_api_client/client.rb:155: warning: instance variable @logger not initialized
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/jenkins_api_client-1.5.3/lib/jenkins_api_client/client.rb:160: warning: instance variable @log_location not initialized
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/jenkins_api_client-1.5.3/lib/jenkins_api_client/client.rb:169: warning: instance variable @password_base64 not initialized
+  </system-err>
+</testsuite>

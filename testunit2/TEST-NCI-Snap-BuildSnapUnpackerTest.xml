@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NCI::Snap::BuildSnapUnpackerTest" tests="2" time="0.004180062" failures="0" errors="0" skipped="0" assertions="7" timestamp="2019-06-27T13:06:32+02:00">
+  <testcase name="test_no_snap" time="0.002079694" assertions="3">
+  </testcase>
+  <testcase name="test_unpack" time="0.001942996" assertions="4">
+  </testcase>
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NCI::DuplicatedReposTest" tests="5" time="0.01374467" failures="0" errors="0" skipped="0" assertions="16" timestamp="2019-06-27T13:06:31+02:00">
+  <testcase name="test_multi_exclusion" time="0.003079964" assertions="3">
+  </testcase>
+  <testcase name="test_run_fail" time="0.002862595" assertions="4">
+  </testcase>
+  <testcase name="test_run_pass" time="0.002441726" assertions="3">
+  </testcase>
+  <testcase name="test_run_pass_with_paths_exclusion" time="0.002707083" assertions="3">
+  </testcase>
+  <testcase name="test_run_pass_with_whitelist" time="0.002296794" assertions="3">
+  </testcase>
+  <system-out>
+{}
+{"bar"=&gt;["foo/bar", "std/bar"]}
+{}
+{}
+{}
+  </system-out>
+</testsuite>

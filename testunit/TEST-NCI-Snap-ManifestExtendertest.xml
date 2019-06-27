@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NCI::Snap::ManifestExtendertest" tests="3" time="0.013050748" failures="0" errors="0" skipped="0" assertions="15" timestamp="2019-03-25T14:30:30+01:00">
+  <testcase name="test_no_run_without_base_snap" time="0.002902939" assertions="5">
+  </testcase>
+  <testcase name="test_run" time="0.005321496" assertions="5">
+  </testcase>
+  <testcase name="test_run_using_sdk" time="0.004597597" assertions="5">
+  </testcase>
+  <system-err>
+NOT A KF5 BUILD SNAP USER. NOT MANGLING MANIFEST!
+  </system-err>
+</testsuite>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ParseTest" tests="48" time="1.198428385" failures="0" errors="0" skipped="0" assertions="48" timestamp="2019-03-25T14:30:21+01:00">
+  <testcase name="test_parse_shell: ci-tooling/test/data/test_ci_generate_langpack_packaging/test_generation/kde-l10n-ca-valencia-15.12.3/debian/build-l10n.sh" time="0.003124728" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: ci-tooling/test/data/test_ci_generate_langpack_packaging/test_generation/kde-l10n-ca-valencia-15.12.3/debian/upload-l10n.sh" time="0.002493897" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: ci-tooling/test/data/test_ci_vcs_source_builder/test_l10n/source/Messages.sh" time="0.002340674" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: ci-tooling/test/data/test_kdeify/test_thunderbird/packaging/debian/eds/build.sh" time="0.002751728" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: ci-tooling/test/data/test_kdeify/test_thunderbird/packaging/debian/eds/config_build.sh" time="0.002355612" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: ci-tooling/test/data/test_kdeify/test_thunderbird/packaging/debian/eds/make_interface.sh" time="0.002357958" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: ci-tooling/test/data/test_kdeify/test_thunderbird/packaging/debian/messagingmenu/build.sh" time="0.002589531" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: ci-tooling/test/data/test_kdeify/test_thunderbird/packaging/debian/messagingmenu/config_build.sh" time="0.002905325" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: deploy_in_container.sh" time="0.002031659" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: deploy_upgrade_container.sh" time="0.001960701" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: git_submodule_setup.sh" time="0.001927848" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: lib/libexec/ssh_key_file.sh" time="0.00197526" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: mci/imager/build.sh" time="0.002004823" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: mci/imager/pm-config-hooks/20_package_list.sh" time="0.002382071" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: mci/imager/pm-config-hooks/apt.conf.sh" time="0.002417328" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: mci/imager/pm-config-hooks/repo.sh" time="0.002430617" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/asgen.sh" time="0.001936852" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager-img/build.sh" time="0.002215729" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/build.sh" time="0.001974125" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-neon-development/20_package_list.sh" time="0.002542132" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-neon-development/apt.conf.sh" time="0.002607509" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-neon-development/repo.sh" time="0.003298239" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-neon-ko/20_package_list.sh" time="0.002491435" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-neon-ko/apt.conf.sh" time="0.002721538" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-neon-ko/repo.sh" time="0.002466828" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-neon-pm/20_package_list.sh" time="0.002535063" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-neon-pm/30_no_source.sh" time="0.002912317" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-neon-pm/apt.conf.sh" time="0.002485249" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-neon-pm/repo.sh" time="0.00393519" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-neon/100-preinstalled-pool.sh" time="0.002394404" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-neon/20_package_list.sh" time="0.002565212" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-neon/apt.conf.sh" time="0.002641189" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-neon/repo.sh" time="0.002519883" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-plasma-wayland/apt.conf.sh" time="0.00263355" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-plasma-wayland/repo.sh" time="0.002532755" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-xenon-mycroft/20_package_list.sh" time="0.002666081" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-xenon-mycroft/30_no_source.sh" time="0.002831037" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-xenon-mycroft/apt.conf.sh" time="0.002372789" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-hooks-xenon-mycroft/repo.sh" time="0.002880839" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-settings-neon-pm.sh" time="0.002433946" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/imager/config-settings-neon.sh" time="0.002419423" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/rebuild_docker_hub.sh" time="0.002889407" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/seed_deploy.sh" time="0.002058433" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: nci/test.sh" time="0.002319908" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: test/data/test_ci_deployer/test_deploy_exists/tooling-pending/deploy_in_container.sh" time="0.002198022" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: test/data/test_ci_deployer/test_deploy_new/tooling-pending/deploy_in_container.sh" time="0.001914274" assertions="1">
+  </testcase>
+  <testcase name="test_parse_shell: test/data/test_deploy_upgrade_container/deploy_in_container.sh" time="0.002903641" assertions="1">
+  </testcase>
+  <testcase name="test_ruby" time="1.078226322" assertions="1">
+  </testcase>
+</testsuite>

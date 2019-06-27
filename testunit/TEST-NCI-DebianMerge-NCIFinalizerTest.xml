@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NCI::DebianMerge::NCIFinalizerTest" tests="4" time="0.198836271" failures="0" errors="0" skipped="0" assertions="4" timestamp="2019-03-25T14:30:29+01:00">
+  <testcase name="test_already_ffd" time="0.047820273" assertions="0">
+  </testcase>
+  <testcase name="test_ff_not_possible" time="0.046174812" assertions="1">
+  </testcase>
+  <testcase name="test_not_pushable" time="0.045866729" assertions="0">
+  </testcase>
+  <testcase name="test_run" time="0.058683797" assertions="3">
+  </testcase>
+  <system-out>
+pull url /tmp/NCI__DebianMerge__NCIFinalizerTest20190325-1589-axduey/remote/fishy
+tip:: ["refs/remotes/origin/Neon/unstable", "39d33f5c40d4ad949c026da3676832151c8fa4e1", "39d33f5c40d4ad949c026da3676832151c8fa4e1"]
+tip:: ["refs/remotes/origin/Neon/pending-merge", "39d33f5c40d4ad949c026da3676832151c8fa4e1", nil]
+pull url /tmp/NCI__DebianMerge__NCIFinalizerTest20190325-1589-vsjoji/remote/fishy
+tip:: ["refs/remotes/origin/Neon/unstable", "d03e0697aeb94667383a1665a8cfecdd1e6df059", "39d33f5c40d4ad949c026da3676832151c8fa4e1"]
+tip:: ["refs/remotes/origin/Neon/pending-merge", "39d33f5c40d4ad949c026da3676832151c8fa4e1", nil]
+  </system-out>
+</testsuite>

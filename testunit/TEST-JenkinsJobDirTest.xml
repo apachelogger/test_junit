@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JenkinsJobDirTest" tests="2" time="0.017518186" failures="0" errors="0" skipped="0" assertions="44" timestamp="2019-03-25T14:30:25+01:00">
+  <testcase name="test_prune" time="0.01218357" assertions="23">
+  </testcase>
+  <testcase name="test_prune_builds" time="0.005177193" assertions="21">
+  </testcase>
+</testsuite>

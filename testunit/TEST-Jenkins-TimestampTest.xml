@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Jenkins::TimestampTest" tests="2" time="0.003728334" failures="0" errors="0" skipped="0" assertions="3" timestamp="2019-03-25T14:30:25+01:00">
+  <testcase name="test_date" time="0.001879722" assertions="1">
+  </testcase>
+  <testcase name="test_time" time="0.00170815" assertions="2">
+  </testcase>
+</testsuite>

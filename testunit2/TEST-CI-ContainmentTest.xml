@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CI::ContainmentTest" tests="16" time="0.283768462" failures="0" errors="0" skipped="0" assertions="55" timestamp="2019-06-27T13:06:26+02:00">
+  <testcase name="test_AAA_trap_its" time="0.016838989" assertions="11">
+  </testcase>
+  <testcase name="test_AAA_trap_its_privileged_and_trap_run_indicates_no_handlers" time="0.014195481" assertions="11">
+  </testcase>
+  <testcase name="test_BBB_chown_handle_bindings_in_docker_notation" time="0.012558547" assertions="4">
+  </testcase>
+  <testcase name="test_ZZZ_binds" time="0.016357154" assertions="1">
+  </testcase>
+  <testcase name="test_bad_version" time="0.008795234" assertions="1">
+  </testcase>
+  <testcase name="test_check_priv" time="0.020063774" assertions="1">
+  </testcase>
+  <testcase name="test_check_unpriv" time="0.020855998" assertions="1">
+  </testcase>
+  <testcase name="test_cleanup_on_contain" time="0.022422809" assertions="2">
+  </testcase>
+  <testcase name="test_cleanup_on_new" time="0.015634674" assertions="1">
+  </testcase>
+  <testcase name="test_image_is_pangeaimage" time="0.013171934" assertions="2">
+  </testcase>
+  <testcase name="test_init" time="0.012636128" assertions="4">
+  </testcase>
+  <testcase name="test_run" time="0.02915889" assertions="2">
+  </testcase>
+  <testcase name="test_run_env" time="0.021871662" assertions="1">
+  </testcase>
+  <testcase name="test_run_fail" time="0.020515854" assertions="1">
+  </testcase>
+  <testcase name="test_ulimit" time="0.028621325" assertions="2">
+  </testcase>
+  <testcase name="test_userns_docker" time="0.009046544" assertions="10">
+  </testcase>
+  <system-out>
+Error on retry_it(unknown) :: {"message":"oci runtime error: container_linux.go:247: starting container process caused \"exec: \\\"garbage_fail\\\": executable file not found in $PATH\"\n"}
+
+Error on retry_it(unknown) :: {"message":"oci runtime error: container_linux.go:247: starting container process caused \"exec: \\\"garbage_fail\\\": executable file not found in $PATH\"\n"}
+
+Error on retry_it(unknown) :: {"message":"oci runtime error: container_linux.go:247: starting container process caused \"exec: \\\"garbage_fail\\\": executable file not found in $PATH\"\n"}
+
+Error on retry_it(unknown) :: {"message":"oci runtime error: container_linux.go:247: starting container process caused \"exec: \\\"garbage_fail\\\": executable file not found in $PATH\"\n"}
+
+  </system-out>
+  <system-err>
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+{"Status"=&gt;"exited", "Running"=&gt;false, "Paused"=&gt;false, "Restarting"=&gt;false, "OOMKilled"=&gt;false, "Dead"=&gt;false, "Pid"=&gt;0, "ExitCode"=&gt;1, "Error"=&gt;"", "StartedAt"=&gt;"2018-02-19T12:42:58.190224078Z", "FinishedAt"=&gt;"2018-02-19T12:42:58.259444647Z"}
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+{"Status"=&gt;"exited", "Running"=&gt;false, "Paused"=&gt;false, "Restarting"=&gt;false, "OOMKilled"=&gt;false, "Dead"=&gt;false, "Pid"=&gt;0, "ExitCode"=&gt;1, "Error"=&gt;"", "StartedAt"=&gt;"2018-02-19T12:43:20.811117227Z", "FinishedAt"=&gt;"2018-02-19T12:43:20.885123801Z"}
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+{"Status"=&gt;"exited", "Running"=&gt;false, "Paused"=&gt;false, "Restarting"=&gt;false, "OOMKilled"=&gt;false, "Dead"=&gt;false, "Pid"=&gt;0, "ExitCode"=&gt;1, "Error"=&gt;"", "StartedAt"=&gt;"2018-02-19T12:43:41.518200951Z", "FinishedAt"=&gt;"2018-02-19T12:43:41.597552282Z"}
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/network.rb:54:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+  </system-err>
+</testsuite>

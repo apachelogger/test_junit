@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NCI::Snap::BuildSnapCollapserTest" tests="1" time="0.004286941" failures="0" errors="0" skipped="0" assertions="4" timestamp="2019-03-25T14:30:30+01:00">
+  <testcase name="test_snap_collapse" time="0.004184903" assertions="4">
+  </testcase>
+</testsuite>

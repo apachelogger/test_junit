@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PangeaImageTest" tests="4" time="0.005027541" failures="0" errors="0" skipped="0" assertions="8" timestamp="2019-06-27T13:06:32+02:00">
+  <testcase name="test_name" time="0.001312687" assertions="4">
+  </testcase>
+  <testcase name="test_symbol_flavor" time="0.001178429" assertions="1">
+  </testcase>
+  <testcase name="test_tag_args" time="0.001202849" assertions="2">
+  </testcase>
+  <testcase name="test_to_str" time="0.001122786" assertions="1">
+  </testcase>
+</testsuite>

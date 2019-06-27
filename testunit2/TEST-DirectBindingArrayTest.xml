@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DirectBindingArrayTest" tests="7" time="0.0218341" failures="0" errors="0" skipped="0" assertions="9" timestamp="2019-06-27T13:06:27+02:00">
+  <testcase name="test_not_a_array" time="0.006990014" assertions="1">
+  </testcase>
+  <testcase name="test_read_only_array" time="0.005767555" assertions="0">
+  </testcase>
+  <testcase name="test_to_bindings" time="0.001651117" assertions="1">
+  </testcase>
+  <testcase name="test_to_bindings_colons" time="0.001675499" assertions="4">
+  </testcase>
+  <testcase name="test_to_bindings_mixed_fromat" time="0.002328522" assertions="1">
+  </testcase>
+  <testcase name="test_to_volumes" time="0.001514376" assertions="1">
+  </testcase>
+  <testcase name="test_to_volumes_mixed_format" time="0.001507622" assertions="1">
+  </testcase>
+</testsuite>

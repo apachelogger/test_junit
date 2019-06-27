@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NCI::DebianMerge::NCITagMergerTest" tests="2" time="0.006044669" failures="0" errors="0" skipped="0" assertions="9" timestamp="2019-03-25T14:30:30+01:00">
+  <testcase name="test_run" time="0.003053619" assertions="5">
+  </testcase>
+  <testcase name="test_run_fail" time="0.002783226" assertions="4">
+  </testcase>
+</testsuite>

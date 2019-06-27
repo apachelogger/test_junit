@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NCI::Snap::IdentifierTest" tests="3" time="0.005284217" failures="0" errors="0" skipped="0" assertions="10" timestamp="2019-06-27T13:06:32+02:00">
+  <testcase name="test_bad_inputs" time="0.001828854" assertions="2">
+  </testcase>
+  <testcase name="test_extensive" time="0.001650086" assertions="4">
+  </testcase>
+  <testcase name="test_init" time="0.001597796" assertions="4">
+  </testcase>
+</testsuite>

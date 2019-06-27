@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NCI::JenkinsBin::BuildSelectorTest" tests="5" time="0.024363371" failures="0" errors="0" skipped="0" assertions="6" timestamp="2019-06-27T13:06:32+02:00">
+  <testcase name="test_build_selector" time="0.005782297" assertions="2">
+  </testcase>
+  <testcase name="test_build_selector_bad_slave_chain" time="0.003301668" assertions="1">
+  </testcase>
+  <testcase name="test_build_selector_not_configured_core" time="0.003028752" assertions="1">
+  </testcase>
+  <testcase name="test_build_selector_repeated_404" time="0.007199969" assertions="1">
+  </testcase>
+  <testcase name="test_build_selector_single_404" time="0.004561794" assertions="1">
+  </testcase>
+  <system-out>
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+Error on retry_it(unknown) :: JenkinsApi::Exceptions::NotFound
+  </system-out>
+</testsuite>

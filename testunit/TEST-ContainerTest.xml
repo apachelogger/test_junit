@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ContainerTest" tests="7" time="0.059362796" failures="0" errors="0" skipped="0" assertions="13" timestamp="2019-03-25T14:30:24+01:00">
+  <testcase name="test_env_whitelist" time="0.008020231" assertions="4">
+  </testcase>
+  <testcase name="test_exist" time="0.012324107" assertions="2">
+  </testcase>
+  <testcase name="test_to_bindings" time="0.007723273" assertions="1">
+  </testcase>
+  <testcase name="test_to_bindings_colons" time="0.007859822" assertions="3">
+  </testcase>
+  <testcase name="test_to_bindings_mixed_fromat" time="0.007639319" assertions="1">
+  </testcase>
+  <testcase name="test_to_volumes" time="0.007952018" assertions="1">
+  </testcase>
+  <testcase name="test_to_volumes_mixed_format" time="0.007365191" assertions="1">
+  </testcase>
+  <system-err>
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+/home/me/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/docker-api-1.34.2/lib/docker/container.rb:346:in `get': warning: URI.escape is obsolete
+  </system-err>
+</testsuite>

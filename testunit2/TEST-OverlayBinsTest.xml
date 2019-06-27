@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OverlayBinsTest" tests="5" time="0.220699138" failures="0" errors="0" skipped="0" assertions="21" timestamp="2019-06-27T13:06:32+02:00">
+  <testcase name="test_cmake" time="0.115633922" assertions="4">
+  </testcase>
+  <testcase name="test_cmake_no_verbose" time="0.024038799" assertions="4">
+  </testcase>
+  <testcase name="test_cmake_no_verbose_override" time="0.024451128" assertions="4">
+  </testcase>
+  <testcase name="test_tail" time="0.028356042" assertions="4">
+  </testcase>
+  <testcase name="test_tail_cache_copy" time="0.027865327" assertions="5">
+  </testcase>
+</testsuite>
